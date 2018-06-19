@@ -84,14 +84,14 @@ bfs_on_hdt <- function(depth,query,data){
       new_subjects = c(lapply(new_subjects, append_to_subject), lapply(new_subjects, append_to_object))
       new_queries <- c(new_queries,new_subjects)
     }
-    new_queries <- new_queries[!new_queries %in% old_queries]
-    old_queries <- c(old_queries, new_queries)
+   # new_queries <- new_queries[!new_queries %in% old_queries]
+   #  old_queries <- c(old_queries, new_queries)
     queries <- new_queries
   }
   df <- do.call(rbind.data.frame,transformed_total)
   df<- lapply(df,convert_to_nt)
-  col_headings <- c('subject','predicate','object')
+  col_headings <- c('subject','predicate','obj')
   names(df) <- col_headings
-  return(df)
+  return(df[!duplicated(df), ])
 }
 

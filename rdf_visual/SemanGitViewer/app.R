@@ -21,7 +21,7 @@ ui <- fluidPage(
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
       sidebarPanel(
-         textInput("uri", "Search for URI", "_:fe1e3161bd5b71df9a66ad865d9749d2"),
+         textInput("uri", "Search for URI", "_:660800c2a774d50f86560ec1999b3eae"),
         
          sliderInput("d",
                      "Depth:",
@@ -62,25 +62,24 @@ server <- function(input, output, session) {
         write.table(x, file, row.names=FALSE, quote=FALSE, col.names = FALSE)
       }
     )
-    df<-data.frame(table(x$subject.predicate))
-    df2<-df[str_detect(df$predicate,"is_joined")]
-    df2<-aggregate(subject ~ object, data = x, FUN = function(x){NROW(x)})
-    df2<-df[order(df$subject),]
-    df2<-df[1:60,]
-    colfunc1 <- colorRampPalette(c("cyan","yellow"))
+    df<-aggregate(subject ~ obj + predicate, data = x, FUN = function(x){NROW(x)})
+    colfunc1 <- colorRampPalette(c("cyan","red"))
+    df1<-df[df$predicate=="<http://www.sg.com/ont/github_organization_joined_by>",]
     output$plot1 <- renderPlot({
-      barplot(df2$subject, col = colfunc1(nrow(df)))
+      barplot(df1$subject, col = colfunc1(nrow(df1)), xlab="Users", ylab="joined")
     })
-    colfunc2 <- colorRampPalette(c("green","yellow"))
+    df2<-df[df$predicate=="<http://www.sg.com/ont/github_organization_is_joined>",]
+    colfunc2 <- colorRampPalette(c("red","green"))
     output$plot2 <- renderPlot({
-      barplot(df2$subject, col = colfunc2(nrow(df)))
+      barplot(df2$subject, col = colfunc2(nrow(df2)), xlab="Organization", ylab="was joint by")
     })
     }
   )
 
 
 }
-
+#_:0af737b52053569d48e74b39a31a1383
+#_:0afa2703a06b32e69c8ed0c686f2fb25
 # Run the application 
 shinyApp(ui = ui, server = server)
 
