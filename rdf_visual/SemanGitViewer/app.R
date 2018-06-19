@@ -21,7 +21,7 @@ ui <- fluidPage(
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
       sidebarPanel(
-         textInput("uri", "Search for URI", "http://www.dennis_stinkt_krass.pizza#ghuser_10"),
+         textInput("uri", "Search for URI", "_:fe1e3161bd5b71df9a66ad865d9749d2"),
         
          sliderInput("d",
                      "Depth:",
@@ -30,7 +30,8 @@ ui <- fluidPage(
                      value = 1),
          
          actionButton("btn1", "Generate RDF"),
-         textOutput("loading")
+         textOutput("loading"),
+         downloadButton("downloadData", "Download") 
          
          
       ),
@@ -38,7 +39,9 @@ ui <- fluidPage(
       # Show a plot of the generated distribution
       mainPanel(
          plotOutput("plot1"),
-         downloadButton("downloadData", "Download")      )
+         plotOutput("plot2")
+
+     )
    )
 )
 
@@ -60,13 +63,19 @@ server <- function(input, output, session) {
       }
     )
     df<-data.frame(table(x$subject.predicate))
-    df<-aggregate(predicate ~ subject, data = x, FUN = function(x){NROW(x)})
-    df<-df[order(df$predicate),]
-    colfunc <- colorRampPalette(c("cyan","green","yellow"))
+    df2<-df[str_detect(df$predicate,"is_joined")]
+    df2<-aggregate(subject ~ object, data = x, FUN = function(x){NROW(x)})
+    df2<-df[order(df$subject),]
+    df2<-df[1:60,]
+    colfunc1 <- colorRampPalette(c("cyan","yellow"))
     output$plot1 <- renderPlot({
-      barplot(df$predicate, names=df$subject, col = colfunc(nrow(df)))
+      barplot(df2$subject, col = colfunc1(nrow(df)))
     })
-  }
+    colfunc2 <- colorRampPalette(c("green","yellow"))
+    output$plot2 <- renderPlot({
+      barplot(df2$subject, col = colfunc2(nrow(df)))
+    })
+    }
   )
 
 

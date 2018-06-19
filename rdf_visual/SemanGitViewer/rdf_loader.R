@@ -8,12 +8,11 @@ source('config.R')
 #           Helper Functions
 #-------------------------------------
 is_triple<-function(x){
-  return(str_detect(x[1],"http:"))
+  return(str_detect(x[1],"http:") | str_detect(x[1],"_:"))
 }
 
 object_is_subject <- function(x){
-  return(str_detect(x[3],"http://www.dennis_stinkt_krass.pizza"))
-  #!str_detect(x[2],"type")
+  return(!str_detect(x[3],"\"\"") & !str_detect(x[2],"type"))
 }  
 
 convert_to_nt <- function(x){
@@ -25,6 +24,10 @@ convert_to_nt <- function(x){
 
 append_to_subject <- function(x){
   x <- paste0(x," ?"," ? \n")
+}
+
+append_to_object <- function(x){
+  x <- paste0("?"," ? ",x," \n")
 }
 
 wait_for_start<-function(handle)
@@ -77,8 +80,8 @@ bfs_on_hdt <- function(depth,query,data){
         transformed_total<-c(transformed_total,transformed)
       }
       containing_new_subjects = transformed[unlist(lapply(transformed,object_is_subject))]
-      new_subjects = unlist(containing_new_subjects)[c(FALSE, FALSE, TRUE)]
-      new_subjects = lapply(new_subjects, append_to_subject)
+      new_subjects = unlist(containing_new_subjects)[c(TRUE, FALSE, TRUE)]
+      new_subjects = c(lapply(new_subjects, append_to_subject), lapply(new_subjects, append_to_object))
       new_queries <- c(new_queries,new_subjects)
     }
     new_queries <- new_queries[!new_queries %in% old_queries]
@@ -91,6 +94,4 @@ bfs_on_hdt <- function(depth,query,data){
   names(df) <- col_headings
   return(df)
 }
-
-
 
