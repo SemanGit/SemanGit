@@ -18,7 +18,7 @@
                                      dc:creator "Dennis Kubitza, Matthias Böckmann". 
 #################################################################
 
-###  Property Definitions (Number of Property) 71 ###
+###  Property Definitions (Number of Property) 70 ###
 #  --------------------------- Property 0------------------------- 
 :github_organization_joined_by rdf:type owl:ObjectProperty; 
                                rdfs:label "github_organization_joined_by"@IRI-based; 
@@ -503,11 +503,6 @@
                 rdfs:label "github_follows"@en; 
                 rdfs:domain :github_follow_event;
                 rdfs:range :followable. 
-#  --------------------------- Property 70------------------------- 
-:github_commit_created_at rdf:type owl:ObjectProperty; 
-                          rdfs:label "github_commit_created_at"@en; 
-                          rdfs:domain :github_commit;
-                          rdfs:range rdfs:Literal. 
 ###  Class Definitions (Number of Classes) 20 ###
 #  --------------------------- Class  0------------------------- 
 :github_organization_join_event rdf:type owl:Class; 
