@@ -173,10 +173,10 @@
                       rdfs:domain :github_issue;
                       rdfs:range :github_project. 
 #  --------------------------- Property 22------------------------- 
-:commit_pull_request rdf:type owl:ObjectProperty; 
-                     rdfs:label "commit_pull_request"@en; 
-                     rdfs:domain :commit;
-                     rdfs:range :pull_request. 
+:pull_request_has_commit rdf:type owl:ObjectProperty; 
+                         rdfs:label "pull_request_has_commit"@en; 
+                         rdfs:domain :pull_request;
+                         rdfs:range :commit. 
 #  --------------------------- Property 23------------------------- 
 :github_issue_event_action_specific_sha rdf:type owl:DatatypeProperty; 
                                         rdfs:label "github_issue_event_action_specific_sha"@IRI-based; 
