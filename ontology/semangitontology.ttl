@@ -457,12 +457,10 @@
                        rdfs:domain :github_issue;
                        rdfs:range :github_user. 
 #  --------------------------- Property 63------------------------- 
-:github_user_joins_project rdf:type owl:ObjectProperty; 
-                           rdfs:label "github_user_joins_project"@IRI-based; 
-                           rdfs:label "github_user_joins_project"@iri-based; 
-                           rdfs:label "github_user_joins_project"@en; 
-                           rdfs:domain :github_user;
-                           rdfs:range :github_project_join_event. 
+:github_project_joining_user rdf:type owl:ObjectProperty; 
+                             rdfs:label "github_project_joining_user"@en; 
+                             rdfs:domain :github_project_join_event;
+                             rdfs:range :github_user. 
 #  --------------------------- Property 64------------------------- 
 :github_follower rdf:type owl:ObjectProperty; 
                  rdfs:label "github_follower"@IRI-based; 
