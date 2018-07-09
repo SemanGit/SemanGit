@@ -48,19 +48,19 @@
                           rdfs:domain :pull_request;
                           rdfs:range :commit. 
 #  --------------------------- Property 4------------------------- 
-:comment_for rdf:type owl:ObjectProperty; 
-             rdfs:label "comment_for"@IRI-based; 
-             rdfs:label "comment_for"@iri-based; 
-             rdfs:label "comment_for"@en; 
-             rdfs:domain :comment;
-             rdfs:range :commentable. 
-#  --------------------------- Property 5------------------------- 
 :github_organization_is_joined rdf:type owl:ObjectProperty; 
                                rdfs:label "github_organization_is_joined"@IRI-based; 
                                rdfs:label "github_organization_is_joined"@iri-based; 
                                rdfs:label "github_organization_is_joined"@en; 
                                rdfs:domain :github_organization_join_event;
                                rdfs:range :github_user. 
+#  --------------------------- Property 5------------------------- 
+:comment_for rdf:type owl:ObjectProperty; 
+             rdfs:label "comment_for"@IRI-based; 
+             rdfs:label "comment_for"@iri-based; 
+             rdfs:label "comment_for"@en; 
+             rdfs:domain :comment;
+             rdfs:range :commentable. 
 #  --------------------------- Property 6------------------------- 
 :github_issue_event_action rdf:type owl:DatatypeProperty; 
                            rdfs:label "github_issue_event_action"@IRI-based; 
@@ -113,6 +113,7 @@
 #  --------------------------- Property 13------------------------- 
 :github_follows rdf:type owl:ObjectProperty; 
                 rdfs:label "github_follows"@IRI-based; 
+                rdfs:label "github_follows"@iri-based; 
                 rdfs:label "github_follows"@en; 
                 rdfs:domain :github_follow_event;
                 rdfs:range :followable. 
@@ -174,6 +175,7 @@
                       rdfs:range :github_project. 
 #  --------------------------- Property 22------------------------- 
 :pull_request_has_commit rdf:type owl:ObjectProperty; 
+                         rdfs:label "pull_request_has_commit"@IRI-based; 
                          rdfs:label "pull_request_has_commit"@en; 
                          rdfs:domain :pull_request;
                          rdfs:range :commit. 
@@ -185,73 +187,74 @@
                                         rdfs:domain :github_issue_event;
                                         rdfs:range xsd:string. 
 #  --------------------------- Property 24------------------------- 
-:github_issue_event_actor rdf:type owl:ObjectProperty; 
-                          rdfs:label "github_issue_event_actor"@en; 
-                          rdfs:domain :github_issue_event;
-                          rdfs:range :github_user. 
-#  --------------------------- Property 25------------------------- 
 :comment_created_at rdf:type owl:DatatypeProperty; 
                     rdfs:label "comment_created_at"@IRI-based; 
                     rdfs:label "comment_created_at"@iri-based; 
                     rdfs:label "comment_created_at"@en; 
                     rdfs:domain :comment;
                     rdfs:range rdfs:Literal. 
-#  --------------------------- Property 26------------------------- 
+#  --------------------------- Property 25------------------------- 
 :github_pull_request_intra_branch rdf:type owl:DatatypeProperty; 
                                   rdfs:label "github_pull_request_intra_branch"@IRI-based; 
                                   rdfs:label "github_pull_request_intra_branch"@iri-based; 
                                   rdfs:label "github_pull_request_intra_branch"@en; 
                                   rdfs:domain :github_pull_request;
                                   rdfs:range xsd:boolean. 
-#  --------------------------- Property 27------------------------- 
+#  --------------------------- Property 26------------------------- 
 :commit_message rdf:type owl:DatatypeProperty; 
                 rdfs:label "commit_message"@IRI-based; 
                 rdfs:label "commit_message"@iri-based; 
                 rdfs:label "commit_message"@en; 
                 rdfs:domain :commit;
                 rdfs:range xsd:string. 
-#  --------------------------- Property 28------------------------- 
+#  --------------------------- Property 27------------------------- 
 :github_project_has_milestone rdf:type owl:ObjectProperty; 
                               rdfs:label "github_project_has_milestone"@IRI-based; 
                               rdfs:label "github_project_has_milestone"@iri-based; 
                               rdfs:label "github_project_has_milestone"@en; 
                               rdfs:domain :github_project;
                               rdfs:range :github_project_milestone. 
-#  --------------------------- Property 29------------------------- 
+#  --------------------------- Property 28------------------------- 
 :github_user_or_project rdf:type owl:DatatypeProperty; 
                         rdfs:label "github_user_or_project"@IRI-based; 
                         rdfs:label "github_user_or_project"@iri-based; 
                         rdfs:label "github_user_or_project"@en; 
                         rdfs:domain :github_follow_event;
                         rdfs:range xsd:boolean. 
-#  --------------------------- Property 30------------------------- 
+#  --------------------------- Property 29------------------------- 
 :github_project_name rdf:type owl:DatatypeProperty; 
                      rdfs:label "github_project_name"@IRI-based; 
                      rdfs:label "github_project_name"@iri-based; 
                      rdfs:label "github_project_name"@en; 
                      rdfs:domain :github_project;
                      rdfs:range xsd:string. 
-#  --------------------------- Property 31------------------------- 
+#  --------------------------- Property 30------------------------- 
 :pull_request_base_commit rdf:type owl:ObjectProperty; 
                           rdfs:label "pull_request_base_commit"@IRI-based; 
                           rdfs:label "pull_request_base_commit"@iri-based; 
                           rdfs:label "pull_request_base_commit"@en; 
                           rdfs:domain :pull_request;
                           rdfs:range :commit. 
-#  --------------------------- Property 32------------------------- 
+#  --------------------------- Property 31------------------------- 
 :comment_line rdf:type owl:DatatypeProperty; 
               rdfs:label "comment_line"@IRI-based; 
               rdfs:label "comment_line"@iri-based; 
               rdfs:label "comment_line"@en; 
               rdfs:domain :comment;
               rdfs:range xsd:integer. 
-#  --------------------------- Property 33------------------------- 
+#  --------------------------- Property 32------------------------- 
 :github_pull_request_id rdf:type owl:DatatypeProperty; 
                         rdfs:label "github_pull_request_id"@IRI-based; 
                         rdfs:label "github_pull_request_id"@iri-based; 
                         rdfs:label "github_pull_request_id"@en; 
                         rdfs:domain :github_pull_request;
                         rdfs:range xsd:integer. 
+#  --------------------------- Property 33------------------------- 
+:github_project_deleted rdf:type owl:DatatypeProperty; 
+                        rdfs:label "github_project_deleted"@IRI-based; 
+                        rdfs:label "github_project_deleted"@en; 
+                        rdfs:domain :github_project;
+                        rdfs:range xsd:boolean. 
 #  --------------------------- Property 34------------------------- 
 :github_project_milestone_name rdf:type owl:DatatypeProperty; 
                                rdfs:label "github_project_milestone_name"@IRI-based; 
@@ -267,12 +270,10 @@
                     rdfs:domain :github_user;
                     rdfs:range xsd:boolean. 
 #  --------------------------- Property 36------------------------- 
-:github_issue_has_label rdf:type owl:ObjectProperty; 
-                        rdfs:label "github_issue_has_label"@IRI-based; 
-                        rdfs:label "github_issue_has_label"@iri-based; 
-                        rdfs:label "github_issue_has_label"@en; 
-                        rdfs:domain :github_issue;
-                        rdfs:range :github_repo_label. 
+:github_issue_label_used_by rdf:type owl:ObjectProperty; 
+                            rdfs:label "github_issue_label_used_by"@en; 
+                            rdfs:domain :github_repo_label;
+                            rdfs:range :github_issue. 
 #  --------------------------- Property 37------------------------- 
 :github_project_join_event_created_at rdf:type owl:DatatypeProperty; 
                                       rdfs:label "github_project_join_event_created_at"@IRI-based; 
@@ -329,182 +330,185 @@
                rdfs:domain :github_user;
                rdfs:range xsd:integer. 
 #  --------------------------- Property 45------------------------- 
+:github_project_joining_user rdf:type owl:ObjectProperty; 
+                             rdfs:label "github_project_joining_user"@IRI-based; 
+                             rdfs:label "github_project_joining_user"@en; 
+                             rdfs:domain :github_project_join_event;
+                             rdfs:range :github_user. 
+#  --------------------------- Property 46------------------------- 
 :github_issue_pull_request rdf:type owl:ObjectProperty; 
                            rdfs:label "github_issue_pull_request"@IRI-based; 
                            rdfs:label "github_issue_pull_request"@iri-based; 
                            rdfs:label "github_issue_pull_request"@en; 
                            rdfs:domain :github_issue;
                            rdfs:range :github_pull_request. 
-#  --------------------------- Property 46------------------------- 
+#  --------------------------- Property 47------------------------- 
 :github_project_id rdf:type owl:DatatypeProperty; 
                    rdfs:label "github_project_id"@IRI-based; 
                    rdfs:label "github_project_id"@iri-based; 
                    rdfs:label "github_project_id"@en; 
                    rdfs:domain :github_project;
                    rdfs:range xsd:integer. 
-#  --------------------------- Property 47------------------------- 
+#  --------------------------- Property 48------------------------- 
 :github_issue_created_at rdf:type owl:DatatypeProperty; 
                          rdfs:label "github_issue_created_at"@IRI-based; 
                          rdfs:label "github_issue_created_at"@iri-based; 
                          rdfs:label "github_issue_created_at"@en; 
                          rdfs:domain :github_issue;
                          rdfs:range rdfs:Literal. 
-#  --------------------------- Property 48------------------------- 
+#  --------------------------- Property 49------------------------- 
 :github_company rdf:type owl:DatatypeProperty; 
                 rdfs:label "github_company"@IRI-based; 
                 rdfs:label "github_company"@iri-based; 
                 rdfs:label "github_company"@en; 
                 rdfs:domain :github_user;
                 rdfs:range xsd:string. 
-#  --------------------------- Property 49------------------------- 
+#  --------------------------- Property 50------------------------- 
 :comment_author rdf:type owl:ObjectProperty; 
                 rdfs:label "comment_author"@IRI-based; 
                 rdfs:label "comment_author"@iri-based; 
                 rdfs:label "comment_author"@en; 
                 rdfs:domain :comment;
                 rdfs:range :user. 
-#  --------------------------- Property 50------------------------- 
+#  --------------------------- Property 51------------------------- 
 :commit_repository rdf:type owl:ObjectProperty; 
                    rdfs:label "commit_repository"@IRI-based; 
                    rdfs:label "commit_repository"@iri-based; 
                    rdfs:label "commit_repository"@en; 
                    rdfs:domain :commit;
                    rdfs:range :repository. 
-#  --------------------------- Property 51------------------------- 
+#  --------------------------- Property 52------------------------- 
 :github_pull_request_action_type rdf:type owl:ObjectProperty; 
                                  rdfs:label "github_pull_request_action_type"@IRI-based; 
                                  rdfs:label "github_pull_request_action_type"@iri-based; 
                                  rdfs:label "github_pull_request_action_type"@en; 
                                  rdfs:domain :github_pull_request_action;
                                  rdfs:range rdfs:Datatype. 
-#  --------------------------- Property 52------------------------- 
+#  --------------------------- Property 53------------------------- 
 :github_project_description rdf:type owl:DatatypeProperty; 
                             rdfs:label "github_project_description"@IRI-based; 
                             rdfs:label "github_project_description"@iri-based; 
                             rdfs:label "github_project_description"@en; 
                             rdfs:domain :github_project;
                             rdfs:range xsd:string. 
-#  --------------------------- Property 53------------------------- 
+#  --------------------------- Property 54------------------------- 
 :github_issue_id rdf:type owl:DatatypeProperty; 
                  rdfs:label "github_issue_id"@IRI-based; 
                  rdfs:label "github_issue_id"@iri-based; 
                  rdfs:label "github_issue_id"@en; 
                  rdfs:domain :github_issue;
                  rdfs:range xsd:integer. 
-#  --------------------------- Property 54------------------------- 
+#  --------------------------- Property 55------------------------- 
 :comment_body rdf:type owl:DatatypeProperty; 
               rdfs:label "comment_body"@IRI-based; 
               rdfs:label "comment_body"@iri-based; 
               rdfs:label "comment_body"@en; 
               rdfs:domain :comment;
               rdfs:range xsd:string. 
-#  --------------------------- Property 55------------------------- 
+#  --------------------------- Property 56------------------------- 
 :pull_request_user rdf:type owl:ObjectProperty; 
                    rdfs:label "pull_request_user"@IRI-based; 
                    rdfs:label "pull_request_user"@iri-based; 
                    rdfs:label "pull_request_user"@en; 
                    rdfs:domain :pull_request;
                    rdfs:range :user. 
-#  --------------------------- Property 56------------------------- 
+#  --------------------------- Property 57------------------------- 
+:github_issue_event_actor rdf:type owl:ObjectProperty; 
+                          rdfs:label "github_issue_event_actor"@IRI-based; 
+                          rdfs:label "github_issue_event_actor"@en; 
+                          rdfs:domain :github_issue_event;
+                          rdfs:range :github_user. 
+#  --------------------------- Property 58------------------------- 
 :github_user_created_at rdf:type owl:DatatypeProperty; 
                         rdfs:label "github_user_created_at"@IRI-based; 
                         rdfs:label "github_user_created_at"@iri-based; 
                         rdfs:label "github_user_created_at"@en; 
                         rdfs:domain :github_user;
                         rdfs:range rdfs:Literal. 
-#  --------------------------- Property 57------------------------- 
+#  --------------------------- Property 59------------------------- 
 :github_pull_request_action_created_at rdf:type owl:DatatypeProperty; 
                                        rdfs:label "github_pull_request_action_created_at"@IRI-based; 
                                        rdfs:label "github_pull_request_action_created_at"@iri-based; 
                                        rdfs:label "github_pull_request_action_created_at"@en; 
                                        rdfs:domain :github_pull_request_action;
                                        rdfs:range rdfs:Literal. 
-#  --------------------------- Property 58------------------------- 
+#  --------------------------- Property 60------------------------- 
 :github_has_owner rdf:type owl:ObjectProperty; 
                   rdfs:label "github_has_owner"@IRI-based; 
                   rdfs:label "github_has_owner"@iri-based; 
                   rdfs:label "github_has_owner"@en; 
                   rdfs:domain :github_project;
                   rdfs:range :github_user. 
-#  --------------------------- Property 59------------------------- 
+#  --------------------------- Property 61------------------------- 
 :user_email rdf:type owl:DatatypeProperty; 
             rdfs:label "user_email"@IRI-based; 
             rdfs:label "user_email"@iri-based; 
             rdfs:label "user_email"@en; 
             rdfs:domain :user;
             rdfs:range rdfs:Literal. 
-#  --------------------------- Property 60------------------------- 
+#  --------------------------- Property 62------------------------- 
 :github_following_since rdf:type owl:DatatypeProperty; 
                         rdfs:label "github_following_since"@IRI-based; 
                         rdfs:label "github_following_since"@iri-based; 
                         rdfs:label "github_following_since"@en; 
                         rdfs:domain :github_follow_event;
                         rdfs:range rdfs:Literal. 
-#  --------------------------- Property 61------------------------- 
+#  --------------------------- Property 63------------------------- 
 :github_user_location rdf:type owl:DatatypeProperty; 
                       rdfs:label "github_user_location"@IRI-based; 
                       rdfs:label "github_user_location"@iri-based; 
                       rdfs:label "github_user_location"@en; 
                       rdfs:domain :github_user;
                       rdfs:range rdfs:Literal. 
-#  --------------------------- Property 62------------------------- 
+#  --------------------------- Property 64------------------------- 
 :github_issue_reporter rdf:type owl:ObjectProperty; 
                        rdfs:label "github_issue_reporter"@IRI-based; 
                        rdfs:label "github_issue_reporter"@iri-based; 
                        rdfs:label "github_issue_reporter"@en; 
                        rdfs:domain :github_issue;
                        rdfs:range :github_user. 
-#  --------------------------- Property 63------------------------- 
-:github_project_joining_user rdf:type owl:ObjectProperty; 
-                             rdfs:label "github_project_joining_user"@en; 
-                             rdfs:domain :github_project_join_event;
-                             rdfs:range :github_user. 
-#  --------------------------- Property 64------------------------- 
+#  --------------------------- Property 65------------------------- 
 :github_follower rdf:type owl:ObjectProperty; 
                  rdfs:label "github_follower"@IRI-based; 
+                 rdfs:label "github_follower"@iri-based; 
                  rdfs:label "github_follower"@en; 
                  rdfs:domain :github_follow_event;
                  rdfs:range :github_user. 
-#  --------------------------- Property 65------------------------- 
+#  --------------------------- Property 66------------------------- 
 :github_login rdf:type owl:DatatypeProperty; 
               rdfs:label "github_login"@IRI-based; 
               rdfs:label "github_login"@iri-based; 
               rdfs:label "github_login"@en; 
               rdfs:domain :github_user;
               rdfs:range xsd:string. 
-#  --------------------------- Property 66------------------------- 
+#  --------------------------- Property 67------------------------- 
 :pull_request_head_project rdf:type owl:ObjectProperty; 
                            rdfs:label "pull_request_head_project"@IRI-based; 
                            rdfs:label "pull_request_head_project"@iri-based; 
                            rdfs:label "pull_request_head_project"@en; 
                            rdfs:domain :pull_request;
                            rdfs:range :repository. 
-#  --------------------------- Property 67------------------------- 
+#  --------------------------- Property 68------------------------- 
 :github_pull_request_action_pull_request rdf:type owl:ObjectProperty; 
                                          rdfs:label "github_pull_request_action_pull_request"@IRI-based; 
                                          rdfs:label "github_pull_request_action_pull_request"@iri-based; 
                                          rdfs:label "github_pull_request_action_pull_request"@en; 
                                          rdfs:domain :github_pull_request_action;
                                          rdfs:range :github_pull_request. 
-#  --------------------------- Property 68------------------------- 
+#  --------------------------- Property 69------------------------- 
 :github_pull_request_action_id rdf:type owl:ObjectProperty; 
                                rdfs:label "github_pull_request_action_id"@IRI-based; 
                                rdfs:label "github_pull_request_action_id"@iri-based; 
                                rdfs:label "github_pull_request_action_id"@en; 
                                rdfs:domain :github_pull_request_action;
                                rdfs:range rdfs:Datatype. 
-#  --------------------------- Property 69------------------------- 
+#  --------------------------- Property 70------------------------- 
 :github_pull_request_merged rdf:type owl:DatatypeProperty; 
                             rdfs:label "github_pull_request_merged"@IRI-based; 
                             rdfs:label "github_pull_request_merged"@iri-based; 
                             rdfs:label "github_pull_request_merged"@en; 
                             rdfs:domain :github_pull_request;
                             rdfs:range xsd:boolean. 
-#  --------------------------- Property 70------------------------- 
-:github_project_deleted rdf:type owl:DatatypeProperty; 
-                        rdfs:label "github_project_deleted"@en; 
-                        rdfs:domain :github_project;
-                        rdfs:range xsd:boolean. 
 ###  Class Definitions (Number of Classes) 20 ###
 #  --------------------------- Class  0------------------------- 
 :github_organization_join_event rdf:type owl:Class; 
