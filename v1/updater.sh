@@ -43,7 +43,7 @@ if [ "$help" == true ]; then
 else
 	while true; do
 		timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
-		log="log_$timestamp"
+		log="logs/log_$timestamp"
 		if [ "$debug" == true ]; then
 			echo "Running in debug mode!" 
 			if [ "$debug_folder" == "" ] && [ "$daily" == true ]; then
@@ -127,7 +127,7 @@ else
 			else
 				echo "File: $str_folder_name/$str_file_name already processed" >> $log
 				if [ -f "$str_folder_name/$str_file_name" ]; then
-					rm $str_folder_name/$str_file_name
+					rm -type f $str_folder_name/$str_file_name
 				fi
 			fi
 		done < "$input"
