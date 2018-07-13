@@ -371,12 +371,12 @@
                 rdfs:domain :comment;
                 rdfs:range :user. 
 #  --------------------------- Property 51------------------------- 
-:commit_repository rdf:type owl:ObjectProperty; 
-                   rdfs:label "commit_repository"@IRI-based; 
-                   rdfs:label "commit_repository"@iri-based; 
-                   rdfs:label "commit_repository"@en; 
-                   rdfs:domain :commit;
-                   rdfs:range :repository. 
+:repository_has_commit rdf:type owl:ObjectProperty; 
+                   rdfs:label "repository_has_commit"@IRI-based; 
+                   rdfs:label "repository_has_commit"@iri-based; 
+                   rdfs:label "repository_has_commit"@en; 
+                   rdfs:domain :repository;
+                   rdfs:range :commit. 
 #  --------------------------- Property 52------------------------- 
 :github_pull_request_action_type rdf:type owl:ObjectProperty; 
                                  rdfs:label "github_pull_request_action_type"@IRI-based; 
