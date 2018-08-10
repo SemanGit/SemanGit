@@ -69,7 +69,7 @@ else
 
 	while true; do
 		dstat --time --cpu --mem -load --output systemload.csv 120 >/dev/null &
-		dstad_pid=$?
+		dstad_pid=$!
 		timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
 		count_active_dumps="0"
 		log="./logs/log_$timestamp"
@@ -179,7 +179,6 @@ else
 
 		done < "$input"
 		kill $dstad_pid
-		echo 'killed'
 		if [ "$debug" == true ]; then
 			break
 		else
