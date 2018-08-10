@@ -52,6 +52,12 @@ if [ "$help" == true ]; then
 	echo '-------------------'
 	echo -e '-h , -help:				Print help file\n'
 
+# Check Dependencies
+elif  [ $(dpkg-query -W -f='${Status}' curl 2>/dev/null | grep -c "ok installed") == '0' ]; then echo "Package curl not found. Please install it manually or use sudo ./install.sh" 
+elif  [ $(dpkg-query -W -f='${Status}' pigz 2>/dev/null | grep -c "ok installed") == '0' ]; then echo "Package pigz not found. Please install it manually or use sudo ./install.sh" 
+elif  [ $(which java) == '' ]; then echo "No JRE found. Install Package default-jre manually or use sudo ./install.sh" 
+elif  [ $(dpkg-query -W -f='${Status}' dstat 2>/dev/null | grep -c "ok installed") == '0' ]; then echo "Package dstat not found. Please install it manually or use sudo ./install.sh" 
+
 # Else run script.
 else
 	if [ ! -d "./logs" ]; then
@@ -62,6 +68,8 @@ else
 	fi
 
 	while true; do
+		dstat --time --cpu --mem -load --output systemload.csv 120 >/dev/null &
+		dstad_pid=$?
 		timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
 		count_active_dumps="0"
 		log="./logs/log_$timestamp"
@@ -89,7 +97,8 @@ else
 			str_folder_name=$debug_prefix$str_folder_name
 			if [ ! -d "$str_folder_name" ]; then
 				mkdir "$str_folder_name"
-				echo "Folder: $str_folder_name created" >> $log
+				timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+				echo "$timestamp --- Folder: $str_folder_name created" >> $log
 			fi
 			
 			# Save information from the ghtorrent website in the folder
@@ -102,36 +111,44 @@ else
 
 				# Start downloading iff file not exits or last attempt did not sucseed.
 				if [ ! -f "$str_folder_name/SG_DOWNLOAD_DONE" ]; then
-					echo "Folder: $str_folder_name no SG_DOWNLOAD_DONE" >> $log
+					timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+					echo "$timestamp --- Folder: $str_folder_name no SG_DOWNLOAD_DONE" >> $log
 					if [ -f "$str_folder_name/$str_file_name" ]; then
 						rm $str_folder_name/$str_file_name
-						echo "File: removing $str_folder_name/$str_file_name" >> $log
+						timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+						echo "$timestamp --- File: removing $str_folder_name/$str_file_name" >> $log
 					fi
 					if [ "$fake" == false ]; then
-						curl -o "$str_folder_name/$str_file_name" "$str_link" 
-						echo "File: Downloading $str_folder_name/$str_file_name" >> $log
+						curl -o "$str_folder_name/$str_file_name" "$str_link"
+						timestamp=`date "+%Y_%m_%d_%H_%M_%S"` 
+						echo "$timestamp --- File: Downloading $str_folder_name/$str_file_name" >> $log
 						curl_exit_code=$?
 					else
 						cp "./example_data/example.tar.gz" "$str_folder_name/$str_file_name"
 						curl_exit_code="0"
 					fi
 					if [ "$curl_exit_code" == "0" ]; then
-						echo "File: Downloading $str_folder_name/$str_file_name sucseeded" >> $log
+						
+						timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+						echo "$timestamp --- File: Downloading $str_folder_name/$str_file_name sucseeded" >> $log
 						tar -tzf "$str_folder_name/$str_file_name" >/dev/null
 						tar_exit_code=$?
 						if [ "$tar_exit_code" == "0" ]; then
+							timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
 							echo "" > "$str_folder_name/SG_DOWNLOAD_DONE"
-							echo "File: $str_folder_name/$str_file_name is extractable" >> $log
-							echo "File: Creating $str_folder_nam/SG_DOWNLOAD_DONE" >> $log
+							echo "$timestamp --- File: $str_folder_name/$str_file_name is extractable" >> $log
+							echo "$timestamp --- File: Creating $str_folder_nam/SG_DOWNLOAD_DONE" >> $log
 						fi
 					fi
 				else
-					echo "File: $str_folder_name/$str_file_name already Downloaded" >> $log
+					timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+					echo "$timestamp --- File: $str_folder_name/$str_file_name already Downloaded" >> $log
 				fi
 
 				# Start processing if last processing did not suceeded
 				if [  -f "$str_folder_name/SG_DOWNLOAD_DONE" ] && [ ! -f "$str_folder_name/SG_PROCESSING_DONE" ]; then
-					echo "Call: ./processing.sh  $str_folder_name $str_file_name" >> $log
+					timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+					echo "$timestamp --- Call: ./processing.sh  $str_folder_name $str_file_name" >> $log
 					./processing.sh "$str_folder_name" "$str_file_name"
 				fi
 			fi
@@ -140,10 +157,12 @@ else
 			if [ -f "$str_folder_name/SG_PROCESSING_DONE" ]; then
 				count_active_dumps=$[$count_active_dumps +1]
 
-				echo "File: $str_folder_name/$str_file_name processed" >> $log
+				timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+				echo "$timestamp --- File: $str_folder_name/$str_file_name processed" >> $log
 				if [ -f "$str_folder_name/$str_file_name" ]; then
+					timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
 					rm -type f $str_folder_name/$str_file_name
-					echo "File: removing .tar.gz" >> $log
+					echo "$timestamp --- File: removing .tar.gz" >> $log
 				fi
 				if [ "$count_active_dumps" == "1" ]; then
 					echo "$str_folder_name/$str_folder_name/rdf/combined.ttl" > "SG_RECENT_DUMP"
@@ -153,17 +172,22 @@ else
 					cd $str_folder_name
 					find "." -type d -delete >> /dev/null
 					cd ../
-					echo "Folder: removing $str_folder_name" >> $log
+					timestamp=`date "+%Y_%m_%d_%H_%M_%S"`
+					echo "$timestamp --- Folder: removing $str_folder_name" >> $log
 				fi
 			fi
 
 		done < "$input"
+		kill $dstad_pid
+		echo 'killed'
 		if [ "$debug" == true ]; then
 			break
 		else
 			sleep "$sleep_time"
 		fi
+
 	done
+
 fi
 
 
