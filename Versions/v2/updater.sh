@@ -9,7 +9,7 @@ debug_folder=""
 debug_prefix=""
 input="./ghtorrent.com/ghtorrent_links"
 
-max_active_dumps=3
+max_active_dumps=4
 sleep_time=24h
 
 echo "Starting Script" &

@@ -38,8 +38,12 @@ if [ -d "$str_folder_name" ] ; then
 		done
 		if [ "$java_exit_code" == "0" ]; then 
 			timestamp=`date "+%Y_%m_%d_%H_%M_%S"`		
-			echo "$timestamp --- Translation sucseeded. Removing .csv" >> $log
+			echo "$timestamp --- Translation sucseeded. Removing .csv and unused .ttl ." >> $log
 			rm **/* >/dev/null 2>&1
+			echo "" > "SG_PROCESSING_DONE"
+		elif [ "$java_exit_code" == "2" ]; then
+			timestamp=`date "+%Y_%m_%d_%H_%M_%S"`		
+			echo "$timestamp --- Translation sucseeded partially, as some input lines are corrupted. Removing .ttl" >> $log
 			echo "" > "SG_PROCESSING_DONE"
 		else
 			timestamp=`date "+%Y_%m_%d_%H_%M_%S"`		
