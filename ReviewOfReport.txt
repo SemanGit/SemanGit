@@ -19,7 +19,6 @@ Proposed Approach
 Evaluation
 ==========
 
-- 6.1 results are *very* interesting. (Maybe, you could also add some time performance specifying your machines, like 'how long took the process depending on the base?'…)
 - 6.2 is not finished yet ;-)
 
 
