@@ -8,42 +8,9 @@ General
 - Including a screeshot of the ontology representation with WebVOWL would be great. (As far as I remember you can extract .svg from it)
 
 
-Background
-==========
-
-- You should add a reference to "The RDF Primer" at the first RDF occurrence.
-- More generally, this section has lot's of overlap with the Intro. so, if necessary, the Intro. could be shortened a bit, letting the information here.
-
-
-Use Cases
-=========
-
-- You used female gender in the examples! *Very Good*
-
-
-Related Work
-============
-
-- A bit short, but nonetheless well constructed. :-)
-
-
 Proposed Approach
 =================
 
-- s/chapter/section/g
-- add ";" when itemizing in 5.1
-- 5.2 should be renamed since it shares its name with 5
-- s/"git user"/``git user''/
-- could you add a ref for the OOPS in 5.2.1?
-- there is an official reference for WebVOWL you should use, I think it is this one:
-	@inproceedings{lohmann2014webvowl,
-	  title={WebVOWL: Web-based visualization of ontologies},
-	  author={Lohmann, Steffen and Link, Vincent and Marbach, Eduard and Negru, Stefan},
-	  booktitle={International Conference on Knowledge Engineering and Knowledge Management},
-	  pages={154--158},
-	  year={2014},
-	  organization={Springer}
-	}
 - having here (5.2.1) a screenshot of the ontology in WebVOWL would be great.
 - having an except of the ontology would be great too. (maybe you could add the full file also in Appendix)
 - apparently 5.3 is not finished yet ;-)
