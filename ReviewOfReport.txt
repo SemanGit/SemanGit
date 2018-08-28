@@ -8,23 +8,6 @@ General
 - Including a screeshot of the ontology representation with WebVOWL would be great. (As far as I remember you can extract .svg from it)
 
 
-Header
-======
-
-- I was thinking of "SemanGit" instead of "Semangit" but no problem…
-- I suggest this title: "SemanGit: Adding a semantic layer to the Git protocol" with this sub-title: "A first application on top of Github"
-- You could put also your affiliations in the author blocks
-- You could add the date
-- You could add the university module _i.e._ semantic lab blablabla
-
-
-Abstract
-========
-
-- s/project report/project/
-- The last sentence is not really mandatory. (if you include that in the header ^^)
-
-
 ToC
 ===
 
