@@ -5,14 +5,6 @@
 General
 =======
 
-- Blue links (with the hyperref package) could be blue 
-- Could you add page numbers? YES
-- More generally you could also the following command `\pagestyle{headings}` (I'm not sure of the syntax) to have simple headers with section titles…
-- You have to align:
-	* is it "git" or "Git"?
-	* is it "GitHub", "github", "Github"?
-	* is it "Semangit", "semangit", "SemanGit"?
-- For the 'big' number, it's better to use `\,` _e.g._ instead of "5000 queries" you put "5\,000 queries" => it's more beautiful. ;-)
 - Including a screeshot of the ontology representation with WebVOWL would be great. (As far as I remember you can extract .svg from it)
 
 
