@@ -1,0 +1,129 @@
+<semangit-adding-semantics.pdf>
+@date 28.08.2018
+
+
+General
+=======
+
+- Blue links (with the hyperref package) could be blue 
+- Could you add page numbers? YES
+- More generally you could also the following command `\pagestyle{headings}` (I'm not sure of the syntax) to have simple headers with section titles…
+- You have to align:
+	* is it "git" or "Git"?
+	* is it "GitHub", "github", "Github"?
+	* is it "Semangit", "semangit", "SemanGit"?
+- For the 'big' number, it's better to use `\,` _e.g._ instead of "5000 queries" you put "5\,000 queries" => it's more beautiful. ;-)
+- Including a screeshot of the ontology representation with WebVOWL would be great. (As far as I remember you can extract .svg from it)
+
+
+Header
+======
+
+- I was thinking of "SemanGit" instead of "Semangit" but no problem…
+- I suggest this title: "SemanGit: Adding a semantic layer to the Git protocol" with this sub-title: "A first application on top of Github"
+- You could put also your affiliations in the author blocks
+- You could add the date
+- You could add the university module _i.e._ semantic lab blablabla
+
+
+Abstract
+========
+
+- s/project report/project/
+- The last sentence is not really mandatory. (if you include that in the header ^^)
+
+
+ToC
+===
+
+- This Section is not mandatory since the report is not too long; but it can stay here if you include the page numbers for the various sections.
+- Canonically, the Related Work section is *always* at the end or after the introduction. So, I strongly recommend you to move it. (I have a personnal preference for the end, but it depends ^^)
+- I'll move the Use Cases section at the end (before concluding), it's much more powerful.
+
+Thus, the new structure would be:
+1 Introduction
+4 Related Work
+2 Background
+5 Proposed Approach
+6 Evaluation
+3 Use Cases
+7 Conclusions and Future Work
++ Biblio.
+
+=>These changes obviously imply to touch the last § of the Introduction…
+
+
+Introduction
+============
+
+- There is a dead reference after "June 2018".
+- Maybe some links to the GitHub repos of the project and to the visualization on WebVOWL could be added.
+
+Background
+==========
+
+- You should add a reference to "The RDF Primer" at the first RDF occurrence.
+- More generally, this section has lot's of overlap with the Intro. so, if necessary, the Intro. could be shortened a bit, letting the information here.
+
+
+Use Cases
+=========
+
+- You used female gender in the examples! *Very Good*
+
+
+Related Work
+============
+
+- A bit short, but nonetheless well constructed. :-)
+
+
+Proposed Approach
+=================
+
+- s/chapter/section/g
+- add ";" when itemizing in 5.1
+- 5.2 should be renamed since it shares its name with 5
+- s/"git user"/``git user''/
+- could you add a ref for the OOPS in 5.2.1?
+- there is an official reference for WebVOWL you should use, I think it is this one:
+	@inproceedings{lohmann2014webvowl,
+	  title={WebVOWL: Web-based visualization of ontologies},
+	  author={Lohmann, Steffen and Link, Vincent and Marbach, Eduard and Negru, Stefan},
+	  booktitle={International Conference on Knowledge Engineering and Knowledge Management},
+	  pages={154--158},
+	  year={2014},
+	  organization={Springer}
+	}
+- having here (5.2.1) a screenshot of the ontology in WebVOWL would be great.
+- having an except of the ontology would be great too. (maybe you could add the full file also in Appendix)
+- apparently 5.3 is not finished yet ;-)
+
+
+Evaluation
+==========
+
+- 6.1 results are *very* interesting. (Maybe, you could also add some time performance specifying your machines, like 'how long took the process depending on the base?'…)
+- 6.2 is not finished yet ;-)
+
+
+Conclusions and Future Work
+===========================
+
+- Not finished yet ;-)
+
+
+Biblio.
+=======
+
+- What is the recommended style? (If you choose to move to LLNCS, you should then use the one they also provide, to do so, you'll have to add an additional file to the project which defines all the styles.)
+
+
+
+
+
+
+
+
+
+
