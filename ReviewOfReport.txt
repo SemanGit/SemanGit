@@ -8,32 +8,6 @@ General
 - Including a screeshot of the ontology representation with WebVOWL would be great. (As far as I remember you can extract .svg from it)
 
 
-ToC
-===
-
-- This Section is not mandatory since the report is not too long; but it can stay here if you include the page numbers for the various sections.
-- Canonically, the Related Work section is *always* at the end or after the introduction. So, I strongly recommend you to move it. (I have a personnal preference for the end, but it depends ^^)
-- I'll move the Use Cases section at the end (before concluding), it's much more powerful.
-
-Thus, the new structure would be:
-1 Introduction
-4 Related Work
-2 Background
-5 Proposed Approach
-6 Evaluation
-3 Use Cases
-7 Conclusions and Future Work
-+ Biblio.
-
-=>These changes obviously imply to touch the last § of the Introduction…
-
-
-Introduction
-============
-
-- There is a dead reference after "June 2018".
-- Maybe some links to the GitHub repos of the project and to the visualization on WebVOWL could be added.
-
 Background
 ==========
 
