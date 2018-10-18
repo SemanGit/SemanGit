@@ -1,6 +1,6 @@
 # MA-INF-4314_SemanGit
-SemanGit Repository
+SemanGit Repository. Research Branch.
 
-Documentation TBA
+SemanGit Master + Scripts for sampling, evaluation + visualization etc.
 
 
