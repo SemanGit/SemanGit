@@ -31,7 +31,7 @@
                                    rdfs:label "github_project_language_timestamp"@IRI-based; 
                                    rdfs:label "github_project_language_timestamp"@en; 
                                    rdfs:domain :github_project_language;
-                                   rdfs:range rdfs:Literal. 
+                                   rdfs:range xsd:dateTime. 
 #  --------------------------- Property 2------------------------- 
 :github_repo_label_name rdf:type owl:ObjectProperty; 
                         rdfs:label "github_repo_label_name"@IRI-based; 
@@ -143,7 +143,7 @@
                    rdfs:label "commit_created_at"@iri-based; 
                    rdfs:label "commit_created_at"@en; 
                    rdfs:domain :commit;
-                   rdfs:range rdfs:Literal. 
+                   rdfs:range xsd:dateTime. 
 #  --------------------------- Property 18------------------------- 
 :github_project_joined rdf:type owl:ObjectProperty; 
                        rdfs:label "github_project_joined"@IRI-based; 
@@ -171,7 +171,7 @@
                        rdfs:label "repository_created_at"@iri-based; 
                        rdfs:label "repository_created_at"@en; 
                        rdfs:domain :repository;
-                       rdfs:range rdfs:Literal. 
+                       rdfs:range xsd:dateTime. 
 #  --------------------------- Property 22------------------------- 
 :pull_request_base_project rdf:type owl:ObjectProperty; 
                            rdfs:label "pull_request_base_project"@IRI-based; 
@@ -185,7 +185,7 @@
                                rdfs:label "github_organization_joined_at"@iri-based; 
                                rdfs:label "github_organization_joined_at"@en; 
                                rdfs:domain :github_organization_join_event;
-                               rdfs:range rdfs:Literal. 
+                               rdfs:range xsd:dateTime. 
 #  --------------------------- Property 24------------------------- 
 :github_issue_project rdf:type owl:ObjectProperty; 
                       rdfs:label "github_issue_project"@IRI-based; 
@@ -220,7 +220,7 @@
                     rdfs:label "comment_created_at"@iri-based; 
                     rdfs:label "comment_created_at"@en; 
                     rdfs:domain :comment;
-                    rdfs:range rdfs:Literal. 
+                    rdfs:range xsd:dateTime. 
 #  --------------------------- Property 29------------------------- 
 :github_pull_request_intra_branch rdf:type owl:DatatypeProperty; 
                                   rdfs:label "github_pull_request_intra_branch"@IRI-based; 
@@ -304,7 +304,7 @@
                                       rdfs:label "github_project_join_event_created_at"@iri-based; 
                                       rdfs:label "github_project_join_event_created_at"@en; 
                                       rdfs:domain :github_project_join_event;
-                                      rdfs:range rdfs:Literal. 
+                                      rdfs:range xsd:dateTime. 
 #  --------------------------- Property 41------------------------- 
 :github_project_language_repo rdf:type owl:ObjectProperty; 
                               rdfs:label "github_project_language_repo"@en; 
@@ -322,7 +322,7 @@
                                rdfs:label "github_issue_event_created_at"@iri-based; 
                                rdfs:label "github_issue_event_created_at"@en; 
                                rdfs:domain :github_issue_event;
-                               rdfs:range rdfs:Literal. 
+                               rdfs:range xsd:dateTime. 
 #  --------------------------- Property 44------------------------- 
 :comment_pos rdf:type owl:DatatypeProperty; 
              rdfs:label "comment_pos"@IRI-based; 
@@ -384,7 +384,7 @@
                          rdfs:label "github_issue_created_at"@iri-based; 
                          rdfs:label "github_issue_created_at"@en; 
                          rdfs:domain :github_issue;
-                         rdfs:range rdfs:Literal. 
+                         rdfs:range xsd:dateTime. 
 #  --------------------------- Property 53------------------------- 
 :github_company rdf:type owl:DatatypeProperty; 
                 rdfs:label "github_company"@IRI-based; 
@@ -474,14 +474,14 @@
                         rdfs:label "github_user_created_at"@iri-based; 
                         rdfs:label "github_user_created_at"@en; 
                         rdfs:domain :github_user;
-                        rdfs:range rdfs:Literal. 
+                        rdfs:range xsd:dateTime. 
 #  --------------------------- Property 66------------------------- 
 :github_pull_request_action_created_at rdf:type owl:DatatypeProperty; 
                                        rdfs:label "github_pull_request_action_created_at"@IRI-based; 
                                        rdfs:label "github_pull_request_action_created_at"@iri-based; 
                                        rdfs:label "github_pull_request_action_created_at"@en; 
                                        rdfs:domain :github_pull_request_action;
-                                       rdfs:range rdfs:Literal. 
+                                       rdfs:range xsd:dateTime. 
 #  --------------------------- Property 67------------------------- 
 :github_has_owner rdf:type owl:ObjectProperty; 
                   rdfs:label "github_has_owner"@IRI-based; 
@@ -502,7 +502,7 @@
                         rdfs:label "github_following_since"@iri-based; 
                         rdfs:label "github_following_since"@en; 
                         rdfs:domain :github_follow_event;
-                        rdfs:range rdfs:Literal. 
+                        rdfs:range xsd:dateTime. 
 #  --------------------------- Property 70------------------------- 
 :github_user_location rdf:type owl:DatatypeProperty; 
                       rdfs:label "github_user_location"@IRI-based; 
