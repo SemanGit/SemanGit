@@ -1,0 +1,6 @@
+[submodule "Converter"]
+	path = Converter
+	url = https://github.com/SemanGit/Converter
+[submodule "LinuxDownloader"]
+	path = LinuxDownloader
+	url = https://github.com/SemanGit/LinuxDownloader
