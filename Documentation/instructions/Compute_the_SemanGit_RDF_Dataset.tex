@@ -13,20 +13,20 @@
 \tableofcontents
 \newpage
 \section{Before you start}
-\subsection{What is the Semangit RDF Dataset ?}
-The Semangit RDF Dataset is cummultative turtle-datasets \url{https://www.w3.org/TR/turtle/} of all publicly accessible meta-data on Github. It is computed from data sets provided by \url{www.ghtorrent.com} \cite{ghtorrent} and follows the SemanGit Ontholgy which we develope and provide under \url{https://github.com/SemanGit/SemanGit/tree/master/Documentation/ontology}. For documentation, additional information and references please visit our website \url{www.semangit.de}
+\subsection{What is the SemanGit RDF Dataset ?}
+The SemanGit RDF Dataset is cumulative turtle-dataset \url{https://www.w3.org/TR/turtle/} of publicly accessible meta-data on GitHub. It is computed from data sets provided by \url{www.ghtorrent.com} \cite{ghtorrent} and follows the SemanGit ontology which we develop and provide under \url{https://github.com/SemanGit/SemanGit/tree/master/Documentation/ontology}. For documentation, additional information and references please visit our website \url{www.semangit.de}
 
 \subsection{Licenses}
-For following these Instructions and using the generated RDF you will need to comply with different license agreements. 
+For following these instructions and using the generated RDF, you will need to comply with different license agreements. 
 \begin{itemize}
 \item The required input datasets are licensed by the GHtorrent procject \cite{ghtorrent}. The according license agreements can be found here: \url{http://ghtorrent.org/faq.html}
 \item The processing of the datasets requires the usage of the Java Runtime Environment. Depending on the distributor you choose different license conditions may apply.
 \item The processing of the dataset requires the usage of software developed by us. The software can be obtained from \url{https://github.com/SemanGit/SemanGit}. 
-The software is object to the MIT License: 
+The software is subject to the MIT License: 
 
 \fbox{\parbox{\textwidth}{MIT License
 
-Copyright (c) 2018 Matthias Böckmann, Dennis Kubitza
+Copyright (c) 2018 Matthias B\"ockmann, Dennis Kubitza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -51,14 +51,14 @@ SOFTWARE.}}
 \subsection{Warnings}
 \textcolor{red}{
 \begin{itemize}
-\item The computations described in the following parts are requiring around 1.3 TB of free space. Running out of space may harm you system.
-\item We recommend doing all of the following steps on: 
+\item The computations described in the following parts are requiring around 1.3 TB of free space. Running out of space may harm your system.
+\item We recommend doing all of the following steps on one of the following: 
 \begin{itemize}
 \item A separate empty/new partition without any important files
 \item An external hard drive without any important files
 \item A virtual Machine with at least 1.3TB of free space
 \end{itemize}
-\item The computation requires additional software (JAVA RUN TIME ENVIRONMENT) to be installed. We don't provide an installation guide for this software.
+\item The computation requires Java Runtime Environment 1.8 or later to be installed.
 \end{itemize}
 }
 \newpage
@@ -72,29 +72,31 @@ SOFTWARE.}}
 \item Go to $Downloads > Downloads$
 \item Click on mysql-XXXX-XX-XX to download the selected dump
 \end{enumerate}
-\textbf{Note: Please check ghtorrent's license agreement \url{http://www.ghtorrent.org/faq.html}}
+%\textbf{Note: Please check GHTorrent's license agreement \url{http://www.ghtorrent.org/faq.html}}
 \section{Extract the dump}
 \begin{enumerate}
-\item Create a new Folder with an arbitrary name
-\item Extract your downloaded .zip to the new Folder
+\item Create a new folder with an arbitrary name
+\item Extract your downloaded .zip to the new folder
 \end{enumerate}
-\textbf{Note: For the further processing it is essential that the extracted .csv files all end up in the same reserved folder which shouldn't contain any other files. Depending on your chosen extraction method, the required files will either be located in mysql-XXXX-XX-XX withing your new Folder or directly in new Folder}
+\textbf{Note: For the further processing it is essential that the extracted .csv files all end up in the same reserved folder which shouldn't contain any other files. 
+%Depending on your chosen extraction method, the required files will either be located in mysql-XXXX-XX-XX within your new folder or directly in new folder
+}
 
 \section{Download the Converter}
 \begin{enumerate}
 \item Visit \url{https://github.com/SemanGit/SemanGit}
-\item Click on \textbf{Converter @ XXXXXXX} 
+\item Click on \textbf{Converter} 
 \item Click on \textbf{Clone or download}, Download the .zip and extract it to an arbitrary location.
-\item After extraction you can delete the downloaded .zip file.
+\item After extraction, you can delete the downloaded .zip file.
 \end{enumerate}
 \textbf{Note: Step 2 ensures that you get the latest functioning release. If you want to use the experimental version (not recommended), you can visit  \url{https://github.com/SemanGit/Converter} instead.}
 
 \section{Execute the Converter}
-\textbf{\textcolor{red}{Warning: The following steps requires that you have about 800GBs of free space left on the partition where you extracted mysql-XXX-XX-XX. Having not enough space might harm your system. If you notice that you run out of space during the processing open your systems Task Manger and quit the JAVA Environment. You have to perform a manual clean-up afterwards for freeing the allocated space, by deleting all files which end on .ttl}}
+\textbf{\textcolor{red}{Warning: The following steps require that you have about another 800GB of free space left on the partition where you extracted mysql-XXX-XX-XX. Having not enough space might harm your system. If you notice that you run out of space during the processing, open your systems Task Manger and quit the JAVA Environment. You have to perform a manual clean-up afterwards for freeing the allocated space, by deleting all files which end on .ttl}}
 \begin{enumerate}
 \item Make sure that you have a working Java Run-Time Environment. You can find instructions on checking your JRE here: \url{https://www.java.com/en/download/help/version_manual.xml} 
 \item Open your systems Console/Terminal or Shell.
-\item Move within your Console to the location where you downloaded the Converter $/out/artifacts/converter\_main\_jar$
+\item Navigate to the location where you downloaded the Converter $/out/artifacts/converter\_main\_jar$
 \item You can now execute \\[0.5cm]
 \fbox{java -jar converter\_main.jar path/to/extracted/files [options]}
 \\[0.5cm]
