@@ -441,12 +441,12 @@
                  rdfs:domain :github_issue;
                  rdfs:range xsd:integer. 
 #  --------------------------- Property 61------------------------- 
-:repository_has_commit rdf:type owl:ObjectProperty; 
-                       rdfs:label "repository_has_commit"@IRI-based; 
-                       rdfs:label "repository_has_commit"@iri-based; 
-                       rdfs:label "repository_has_commit"@en; 
-                       rdfs:domain :repository;
-                       rdfs:range :commit. 
+:commit_belongs_to_repository rdf:type owl:ObjectProperty; 
+                       rdfs:label "commit_belongs_to_repository"@IRI-based; 
+                       rdfs:label "commit_belongs_to_repository"@iri-based; 
+                       rdfs:label "commit_belongs_to_repository"@en; 
+                       rdfs:domain :commit;
+                       rdfs:range :repository. 
 #  --------------------------- Property 62------------------------- 
 :comment_body rdf:type owl:DatatypeProperty; 
               rdfs:label "comment_body"@IRI-based; 
