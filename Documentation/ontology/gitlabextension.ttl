@@ -502,7 +502,7 @@
                           rdfs:domain :gitlab_issue;
                           rdfs:range xsd:string . 
 #  --------------------------- Property 73------------------------- 
-:coverage rdf:type owl:DatatypeProperty ;
+:gitlab_deployable_coverage rdf:type owl:DatatypeProperty ;
           rdfs:label "coverage"@IRI-based; 
           rdfs:label "coverage"@en; 
           rdfs:domain :gitlab_deployable;
