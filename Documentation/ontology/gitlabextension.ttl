@@ -21,7 +21,7 @@
 
 ###  Property Definitions (Number of Property) 304 ###
 #  --------------------------- Property 0------------------------- 
-:github_repo_label_name rdf:type owl:ObjectProperty ;
+:github_repo_label_name rdf:type owl:DatatypeProperty ;
                         rdfs:label "github_repo_label_name"@IRI-based; 
                         rdfs:label "github_repo_label_name"@iri-based; 
                         rdfs:label "github_repo_label_name"@en; 
@@ -230,7 +230,7 @@
                          rdfs:domain :gitlab_branch;
                          rdfs:range xsd:boolean . 
 #  --------------------------- Property 32------------------------- 
-:gitlab_deployable_started_at rdf:type owl:ObjectProperty ;
+:gitlab_deployable_started_at rdf:type owl:DatatypeProperty ;
                               rdfs:label "gitlab_deployable_started_at"@IRI-based; 
                               rdfs:label "gitlab_deployable_started_at"@en; 
                               rdfs:domain :gitlab_deployable;
@@ -256,7 +256,7 @@
                                rdfs:domain :gitlab_commit;
                                rdfs:range xsd:string . 
 #  --------------------------- Property 36------------------------- 
-:gitlab_access_request_created_at rdf:type owl:ObjectProperty ;
+:gitlab_access_request_created_at rdf:type owl:DatatypeProperty ;
                                   rdfs:label "gitlab_access_request_created_at"@IRI-based; 
                                   rdfs:label "gitlab_access_request_created_at"@iri-based; 
                                   rdfs:label "gitlab_access_request_created_at"@en; 
@@ -296,7 +296,7 @@
                            rdfs:domain :pull_request;
                            rdfs:range :repository . 
 #  --------------------------- Property 42------------------------- 
-:gitlab_issue_due_date rdf:type owl:ObjectProperty ;
+:gitlab_issue_due_date rdf:type owl:DatatypeProperty ;
                        rdfs:label "gitlab_issue_due_date"@IRI-based; 
                        rdfs:label "gitlab_issue_due_date"@en; 
                        rdfs:domain :gitlab_issue;
@@ -361,7 +361,7 @@
                        rdfs:domain :gitlab_job;
                        rdfs:range xsd:dateTime . 
 #  --------------------------- Property 52------------------------- 
-:commit_created_at rdf:type owl:ObjectProperty ;
+:commit_created_at rdf:type owl:DatatypeProperty ;
                    rdfs:label "commit_created_at"@IRI-based; 
                    rdfs:label "commit_created_at"@iri-based; 
                    rdfs:label "commit_created_at"@en; 
@@ -389,7 +389,7 @@
                      rdfs:domain :github_user;
                      rdfs:range xsd:boolean . 
 #  --------------------------- Property 56------------------------- 
-:repository_created_at rdf:type owl:ObjectProperty ;
+:repository_created_at rdf:type owl:DatatypeProperty ;
                        rdfs:label "repository_created_at"@IRI-based; 
                        rdfs:label "repository_created_at"@iri-based; 
                        rdfs:label "repository_created_at"@en; 
@@ -436,7 +436,7 @@
                      rdfs:domain :github_project;
                      rdfs:range xsd:string . 
 #  --------------------------- Property 63------------------------- 
-:gitlab_event_created_at rdf:type owl:ObjectProperty ;
+:gitlab_event_created_at rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_event_created_at"@IRI-based; 
                          rdfs:label "gitlab_event_created_at"@en; 
                          rdfs:domain :gitlab_event;
@@ -449,7 +449,7 @@
               rdfs:domain :comment;
               rdfs:range xsd:integer . 
 #  --------------------------- Property 65------------------------- 
-:gitlab_commit_authored_date rdf:type owl:ObjectProperty ;
+:gitlab_commit_authored_date rdf:type owl:DatatypeProperty ;
                              rdfs:label "gitlab_commit_authored_date"@IRI-based; 
                              rdfs:label "gitlab_commit_authored_date"@iri-based; 
                              rdfs:label "gitlab_commit_authored_date"@en; 
@@ -542,7 +542,7 @@
                         rdfs:domain :gitlab_issue;
                         rdfs:range :gitlab_user . 
 #  --------------------------- Property 79------------------------- 
-:gitlab_deployable_created_at rdf:type owl:ObjectProperty ;
+:gitlab_deployable_created_at rdf:type owl:DatatypeProperty ;
                               rdfs:label "gitlab_deployable_created_at"@IRI-based; 
                               rdfs:label "gitlab_deployable_created_at"@en; 
                               rdfs:domain :gitlab_deployable;
@@ -567,7 +567,7 @@
                  rdfs:domain :gitlab_issue;
                  rdfs:range xsd:integer . 
 #  --------------------------- Property 83------------------------- 
-:gitlab_issue_closed_at rdf:type owl:ObjectProperty ;
+:gitlab_issue_closed_at rdf:type owl:DatatypeProperty ;
                         rdfs:label "gitlab_issue_closed_at"@IRI-based; 
                         rdfs:label "gitlab_issue_closed_at"@en; 
                         rdfs:domain :gitlab_issue;
@@ -613,7 +613,7 @@
                       rdfs:domain :gitlab_issue;
                       rdfs:range xsd:integer . 
 #  --------------------------- Property 90------------------------- 
-:gitlab_issue_updated_at rdf:type owl:ObjectProperty ;
+:gitlab_issue_updated_at rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_issue_updated_at"@IRI-based; 
                          rdfs:label "gitlab_issue_updated_at"@en; 
                          rdfs:domain :gitlab_issue;
@@ -652,7 +652,7 @@
              rdfs:domain :comment;
              rdfs:range :commentable . 
 #  --------------------------- Property 96------------------------- 
-:gitlab_milestone_updated_at rdf:type owl:ObjectProperty ;
+:gitlab_milestone_updated_at rdf:type owl:DatatypeProperty ;
                              rdfs:label "gitlab_milestone_updated_at"@IRI-based; 
                              rdfs:label "gitlab_milestone_updated_at"@en; 
                              rdfs:domain :gitlab_milestone;
@@ -703,7 +703,7 @@
                      rdfs:domain :gitlab_issue;
                      rdfs:range xsd:integer . 
 #  --------------------------- Property 104------------------------- 
-:gitlab_commit_committed_date rdf:type owl:ObjectProperty ;
+:gitlab_commit_committed_date rdf:type owl:DatatypeProperty ;
                               rdfs:label "gitlab_commit_committed_date"@IRI-based; 
                               rdfs:label "gitlab_commit_committed_date"@iri-based; 
                               rdfs:label "gitlab_commit_committed_date"@en; 
@@ -809,7 +809,7 @@
                         rdfs:domain :github_pull_request;
                         rdfs:range xsd:integer . 
 #  --------------------------- Property 120------------------------- 
-:gitlab_milestone_created_at rdf:type owl:ObjectProperty ;
+:gitlab_milestone_created_at rdf:type owl:DatatypeProperty ;
                              rdfs:label "gitlab_milestone_created_at"@IRI-based; 
                              rdfs:label "gitlab_milestone_created_at"@en; 
                              rdfs:domain :gitlab_milestone;
@@ -822,7 +822,7 @@
                     rdfs:domain :github_user;
                     rdfs:range xsd:boolean . 
 #  --------------------------- Property 122------------------------- 
-:gitlab_access_request_requested_at rdf:type owl:ObjectProperty ;
+:gitlab_access_request_requested_at rdf:type owl:DatatypeProperty ;
                                     rdfs:label "gitlab_access_request_requested_at"@IRI-based; 
                                     rdfs:label "gitlab_access_request_requested_at"@iri-based; 
                                     rdfs:label "gitlab_access_request_requested_at"@en; 
@@ -915,7 +915,7 @@
                     rdfs:domain :gitlab_issue;
                     rdfs:range xsd:string . 
 #  --------------------------- Property 136------------------------- 
-:gitlab_award_emoji_updated_at rdf:type owl:ObjectProperty ;
+:gitlab_award_emoji_updated_at rdf:type owl:DatatypeProperty ;
                                rdfs:label "gitlab_award_emoji_updated_at"@IRI-based; 
                                rdfs:label "gitlab_award_emoji_updated_at"@iri-based; 
                                rdfs:label "gitlab_award_emoji_updated_at"@en; 
@@ -957,7 +957,7 @@
                      rdfs:domain :gitlab_commit;
                      rdfs:range xsd:string . 
 #  --------------------------- Property 142------------------------- 
-:gitlab_award_emoji_created_at rdf:type owl:ObjectProperty ;
+:gitlab_award_emoji_created_at rdf:type owl:DatatypeProperty ;
                                rdfs:label "gitlab_award_emoji_created_at"@IRI-based; 
                                rdfs:label "gitlab_award_emoji_created_at"@iri-based; 
                                rdfs:label "gitlab_award_emoji_created_at"@en; 
@@ -998,7 +998,7 @@
                            rdfs:domain :gitlab_commit;
                            rdfs:range rdfs:Literal . 
 #  --------------------------- Property 148------------------------- 
-:gitlab_deployable_finished_at rdf:type owl:ObjectProperty ;
+:gitlab_deployable_finished_at rdf:type owl:DatatypeProperty ;
                                rdfs:label "gitlab_deployable_finished_at"@IRI-based; 
                                rdfs:label "gitlab_deployable_finished_at"@en; 
                                rdfs:domain :gitlab_deployable;
@@ -1081,7 +1081,7 @@
                                rdfs:domain :github_project_milestone;
                                rdfs:range xsd:string . 
 #  --------------------------- Property 161------------------------- 
-:gitlab_deployment_created_at rdf:type owl:ObjectProperty ;
+:gitlab_deployment_created_at rdf:type owl:DatatypeProperty ;
                               rdfs:label "gitlab_deployment_created_at"@IRI-based; 
                               rdfs:label "gitlab_deployment_created_at"@en; 
                               rdfs:domain :gitlab_deployment;
@@ -1093,7 +1093,7 @@
                       rdfs:domain :gitlab_discussion;
                       rdfs:range xsd:integer . 
 #  --------------------------- Property 163------------------------- 
-:gitlab_issue_created_at rdf:type owl:ObjectProperty ;
+:gitlab_issue_created_at rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_issue_created_at"@IRI-based; 
                          rdfs:label "gitlab_issue_created_at"@en; 
                          rdfs:domain :gitlab_issue;
@@ -1175,7 +1175,7 @@
                       rdfs:domain :gitlab_milestone;
                       rdfs:range xsd:integer . 
 #  --------------------------- Property 176------------------------- 
-:gitlab_milestone_due_date rdf:type owl:ObjectProperty ;
+:gitlab_milestone_due_date rdf:type owl:DatatypeProperty ;
                            rdfs:label "gitlab_milestone_due_date"@IRI-based; 
                            rdfs:label "gitlab_milestone_due_date"@en; 
                            rdfs:domain :gitlab_milestone;
