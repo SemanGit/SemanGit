@@ -1,0 +1,8222 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.4]",
+  "header": {
+    "languages": [
+      "undefined",
+      "en",
+      "iri-based"
+    ],
+    "baseIris": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://visualdataweb.org/semangit",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://visualdataweb.org/semangit/",
+      "dc": "http://purl.org/dc/elements/1.1/#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "en": "SemanGit"
+    },
+    "iri": "http://visualdataweb.org/semangit/",
+    "version": "1.0",
+    "author": [
+      "Dennis Kubitza, Matthias Böckmann"
+    ],
+    "description": {
+      "en": "An onthology for git"
+    },
+    "other": {
+      "creator": [
+        {
+          "identifier": "creator",
+          "language": "undefined",
+          "value": "Dennis Kubitza, Matthias Böckmann",
+          "type": "label"
+        }
+      ],
+      "versionInfo": [
+        {
+          "identifier": "versionInfo",
+          "language": "en",
+          "value": "1.0",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "en",
+          "value": "SemanGit",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.53",
+      "translation": [
+        -2523.2,
+        1234.93
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "1",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "2",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "3",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "4",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "47",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:Class"
+    },
+    {
+      "id": "100",
+      "type": "owl:Class"
+    },
+    {
+      "id": "168",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "63",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "172",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "173",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "174",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "176",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "167",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "170",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "179",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "185",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "163",
+      "type": "owl:Class"
+    },
+    {
+      "id": "186",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "187",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "188",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "190",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "194",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "199",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "206",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "207",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "208",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "209",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "80",
+      "type": "owl:Class"
+    },
+    {
+      "id": "218",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "221",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "224",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "216",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "70",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "230",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "231",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "140",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "235",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "214",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "237",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "212",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "201",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "243",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "244",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "245",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "251",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "253",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "234",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "256",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "196",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "258",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "149",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "259",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "116",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "130",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "260",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "264",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "239",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "266",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "267",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "268",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "269",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "270",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "114",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "273",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "82",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "90",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "250",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "278",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "281",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "282",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "304",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "301",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "305",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "233",
+      "type": "owl:Class"
+    },
+    {
+      "id": "160",
+      "type": "owl:Class"
+    },
+    {
+      "id": "314",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "354",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "285",
+      "type": "owl:Class"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "211",
+      "type": "owl:Class"
+    },
+    {
+      "id": "102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "157",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "350",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "229",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "276",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "347",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "164",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "287",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "337",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "333",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "0",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "192",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "175",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "220",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "222",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId190",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "Class194",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId192",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId191",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class195",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId196",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId198",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId199",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId197",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId193",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId189",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId200",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId201",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId205",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId204",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId203",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId202",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "1",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        406.04,
+        -500.25
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3125.94,
+        -2675.21
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3197.91,
+        -2034.14
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3681.82,
+        -1091.71
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1202.39,
+        -519.71
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch",
+        "iri-based": "gitlab_branch",
+        "en": "gitlab_branch"
+      },
+      "pos": [
+        4077.07,
+        -1878.51
+      ],
+      "pinned": true
+    },
+    {
+      "id": "7",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        384.08,
+        -615.56
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2101.87,
+        -2728.73
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2900.17,
+        -2320.74
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3224.05,
+        -2614.2
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1027.7,
+        -871.05
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1155.96,
+        -720.51
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2437.05,
+        -600.29
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1710.06,
+        878.08
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3770.04,
+        -1625.89
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        568.22,
+        1086.7
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -987.49,
+        -253.51
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -317.23,
+        1792.92
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://visualdataweb.org/semangit/user",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "user",
+        "iri-based": "user",
+        "en": "user"
+      },
+      "pos": [
+        729.5,
+        -222.18
+      ],
+      "pinned": true
+    },
+    {
+      "id": "13",
+      "iri": "http://visualdataweb.org/semangit/github_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project",
+        "iri-based": "github_project",
+        "en": "github_project"
+      },
+      "pos": [
+        -162.94,
+        643.22
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_request",
+        "iri-based": "gitlab_access_request",
+        "en": "gitlab_access_request"
+      },
+      "pos": [
+        5490.79,
+        -340.41
+      ],
+      "pinned": true
+    },
+    {
+      "id": "52",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -411.76,
+        924.53
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://visualdataweb.org/semangit/github_follow_event",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_follow_event",
+        "iri-based": "github_follow_event",
+        "en": "github_follow_event"
+      },
+      "pos": [
+        -1454.76,
+        -464.05
+      ],
+      "pinned": true
+    },
+    {
+      "id": "74",
+      "iri": "http://visualdataweb.org/semangit/gitlab_merge_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_merge_request",
+        "iri-based": "gitlab_merge_request",
+        "en": "gitlab_merge_request"
+      },
+      "pos": [
+        2064.12,
+        -1472.97
+      ],
+      "pinned": true
+    },
+    {
+      "id": "24",
+      "iri": "http://visualdataweb.org/semangit/gitlab_discussion",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_discussion",
+        "en": "gitlab_discussion"
+      },
+      "pos": [
+        1212.22,
+        -2088.71
+      ],
+      "pinned": true
+    },
+    {
+      "id": "31",
+      "iri": "http://visualdataweb.org/semangit/repository",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "repository",
+        "iri-based": "repository",
+        "en": "repository"
+      },
+      "pos": [
+        1164.57,
+        563.17
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://visualdataweb.org/semangit/github_repo_label",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_repo_label",
+        "iri-based": "github_repo_label",
+        "en": "github_repo_label"
+      },
+      "pos": [
+        711.18,
+        288.88
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://visualdataweb.org/semangit/emoji_awardable",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "emoji_awardable",
+        "iri-based": "emoji_awardable",
+        "en": "emoji_awardable"
+      },
+      "pos": [
+        1812.57,
+        -1192.8
+      ],
+      "pinned": true
+    },
+    {
+      "id": "98",
+      "iri": "http://visualdataweb.org/semangit/commentable",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commentable",
+        "iri-based": "commentable",
+        "en": "commentable"
+      },
+      "pos": [
+        484.55,
+        146.79
+      ]
+    },
+    {
+      "id": "100",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request",
+        "iri-based": "github_pull_request",
+        "en": "github_pull_request"
+      },
+      "pos": [
+        705.02,
+        721.8
+      ]
+    },
+    {
+      "id": "168",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3699.34,
+        -1683.32
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2548.36,
+        -515.74
+      ]
+    },
+    {
+      "id": "171",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -899.83,
+        -281.69
+      ]
+    },
+    {
+      "id": "172",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -193.1,
+        483.64
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1163.59,
+        955.51
+      ]
+    },
+    {
+      "id": "173",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3991.02,
+        -278.61
+      ]
+    },
+    {
+      "id": "174",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2716.51,
+        -3501.47
+      ]
+    },
+    {
+      "id": "176",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2150.05,
+        -2599.24
+      ]
+    },
+    {
+      "id": "167",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4204.73,
+        -201.87
+      ]
+    },
+    {
+      "id": "170",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -910.46,
+        -900.52
+      ]
+    },
+    {
+      "id": "179",
+      "iri": "http://visualdataweb.org/semangit/github_organization_join_event",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_organization_join_event",
+        "iri-based": "github_organization_join_event",
+        "en": "github_organization_join_event"
+      },
+      "pos": [
+        -773.41,
+        -1210.34
+      ],
+      "pinned": true
+    },
+    {
+      "id": "60",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3731.25,
+        -1765.08
+      ]
+    },
+    {
+      "id": "183",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3001.38,
+        -2805.2
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4899.16,
+        -2289.35
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2075.09,
+        -2572.61
+      ]
+    },
+    {
+      "id": "185",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4091.8,
+        -1483.55
+      ]
+    },
+    {
+      "id": "163",
+      "iri": "http://visualdataweb.org/semangit/programming_language",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "programming_language",
+        "iri-based": "programming_language",
+        "en": "programming_language"
+      },
+      "pos": [
+        -219.11,
+        1997.94
+      ]
+    },
+    {
+      "id": "186",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2164.6,
+        -2508.97
+      ]
+    },
+    {
+      "id": "187",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1110.49,
+        591.28
+      ]
+    },
+    {
+      "id": "188",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2679.31,
+        -3431.15
+      ]
+    },
+    {
+      "id": "189",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4100.7,
+        -264.49
+      ]
+    },
+    {
+      "id": "190",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2944.37,
+        -2147.86
+      ]
+    },
+    {
+      "id": "194",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -322.14,
+        1016.95
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment",
+        "en": "gitlab_deployment"
+      },
+      "pos": [
+        1740.32,
+        -3158.57
+      ],
+      "pinned": true
+    },
+    {
+      "id": "45",
+      "iri": "http://visualdataweb.org/semangit/gitlab_environment",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_environment",
+        "en": "gitlab_environment"
+      },
+      "pos": [
+        3092.95,
+        -3565.32
+      ],
+      "pinned": true
+    },
+    {
+      "id": "199",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1342.47,
+        -2913.41
+      ]
+    },
+    {
+      "id": "205",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -61.74,
+        1012.11
+      ]
+    },
+    {
+      "id": "206",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        420.2,
+        -745.79
+      ]
+    },
+    {
+      "id": "207",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2751.1,
+        -3373.81
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3592.59,
+        -1136.67
+      ]
+    },
+    {
+      "id": "208",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -578.19,
+        -675.61
+      ]
+    },
+    {
+      "id": "209",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1524.46,
+        377.6
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://visualdataweb.org/semangit/github_user",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user",
+        "iri-based": "github_user",
+        "en": "github_user"
+      },
+      "pos": [
+        -832.05,
+        -607.06
+      ],
+      "pinned": true
+    },
+    {
+      "id": "67",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        479.87,
+        -406.07
+      ]
+    },
+    {
+      "id": "77",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable",
+        "en": "gitlab_deployable"
+      },
+      "pos": [
+        3447.46,
+        -2841.63
+      ],
+      "pinned": true
+    },
+    {
+      "id": "80",
+      "iri": "http://visualdataweb.org/semangit/github_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_commit",
+        "iri-based": "github_commit",
+        "en": "github_commit"
+      },
+      "pos": [
+        1011.43,
+        199.99
+      ]
+    },
+    {
+      "id": "218",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3059.7,
+        -2005.21
+      ]
+    },
+    {
+      "id": "221",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3723.99,
+        -1018.68
+      ]
+    },
+    {
+      "id": "224",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -993.82,
+        -1342.07
+      ]
+    },
+    {
+      "id": "216",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4122.93,
+        -172
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3982.5,
+        -354.64
+      ]
+    },
+    {
+      "id": "230",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2814.33,
+        -2363.45
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://visualdataweb.org/semangit/commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit",
+        "iri-based": "commit",
+        "en": "commit"
+      },
+      "pos": [
+        1585.22,
+        -9.91
+      ]
+    },
+    {
+      "id": "231",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4034.88,
+        -206.37
+      ]
+    },
+    {
+      "id": "151",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2063.09,
+        -2667.48
+      ]
+    },
+    {
+      "id": "140",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3536.1,
+        -1072.22
+      ]
+    },
+    {
+      "id": "235",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2961.69,
+        -2036.96
+      ]
+    },
+    {
+      "id": "214",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        653.28,
+        1128.43
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://visualdataweb.org/semangit/gitlab_user",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_user",
+        "iri-based": "gitlab_user",
+        "en": "gitlab_user"
+      },
+      "pos": [
+        5090.54,
+        -2998.16
+      ],
+      "pinned": true
+    },
+    {
+      "id": "237",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1189.08,
+        -634.95
+      ]
+    },
+    {
+      "id": "212",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1018.76,
+        632.66
+      ]
+    },
+    {
+      "id": "241",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        745.87,
+        1119.49
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1360.68,
+        -2988.89
+      ]
+    },
+    {
+      "id": "201",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3528.85,
+        -1209.97
+      ]
+    },
+    {
+      "id": "243",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4907.79,
+        -2203.33
+      ]
+    },
+    {
+      "id": "244",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2685.1,
+        -3576.72
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": {
+        "IRI-based": "Datatype",
+        "iri-based": "Datatype"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        2223.21,
+        -127.52
+      ],
+      "pinned": true
+    },
+    {
+      "id": "245",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1622.77,
+        372.57
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue",
+        "iri-based": "gitlab_issue",
+        "en": "gitlab_issue"
+      },
+      "pos": [
+        3323.71,
+        -2465.22
+      ],
+      "pinned": true
+    },
+    {
+      "id": "251",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1172.54,
+        504.83
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4008.2,
+        -1462.96
+      ]
+    },
+    {
+      "id": "253",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1330.03,
+        -3067.17
+      ]
+    },
+    {
+      "id": "234",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -781.62,
+        554.28
+      ]
+    },
+    {
+      "id": "256",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5103.63,
+        -56.43
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1729.96,
+        -297.68
+      ]
+    },
+    {
+      "id": "196",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -607.98,
+        -447.9
+      ]
+    },
+    {
+      "id": "258",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1111,
+        -804.55
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -156.91,
+        1010.32
+      ]
+    },
+    {
+      "id": "149",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5154.68,
+        14.78
+      ]
+    },
+    {
+      "id": "259",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -308.24,
+        448.98
+      ]
+    },
+    {
+      "id": "116",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3021.92,
+        -2099.42
+      ]
+    },
+    {
+      "id": "130",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3943.11,
+        -1522.9
+      ]
+    },
+    {
+      "id": "260",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2902.6,
+        -2223.83
+      ]
+    },
+    {
+      "id": "264",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3474,
+        -1141.32
+      ]
+    },
+    {
+      "id": "239",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1121.44,
+        -350.27
+      ]
+    },
+    {
+      "id": "266",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4913.46,
+        -2123.19
+      ]
+    },
+    {
+      "id": "267",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3443.83,
+        -1235.95
+      ]
+    },
+    {
+      "id": "268",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        901.36,
+        -1856.79
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone",
+        "en": "gitlab_milestone"
+      },
+      "pos": [
+        2529.79,
+        -2836.47
+      ],
+      "pinned": true
+    },
+    {
+      "id": "269",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        4975.64,
+        -2064.71
+      ]
+    },
+    {
+      "id": "270",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "boolean"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        865.01,
+        -1956.03
+      ]
+    },
+    {
+      "id": "114",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2868.4,
+        -2433.11
+      ]
+    },
+    {
+      "id": "273",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -579.92,
+        1542.98
+      ]
+    },
+    {
+      "id": "82",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3119.72,
+        -2979.22
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3063.67,
+        -2733.22
+      ]
+    },
+    {
+      "id": "250",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1045.36,
+        -314.46
+      ]
+    },
+    {
+      "id": "278",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3116.03,
+        -2061.65
+      ]
+    },
+    {
+      "id": "281",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2815.09,
+        -2277.51
+      ]
+    },
+    {
+      "id": "282",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2090.08,
+        -2810.84
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit",
+        "iri-based": "gitlab_commit",
+        "en": "gitlab_commit"
+      },
+      "pos": [
+        3877.82,
+        -1546.5
+      ],
+      "pinned": true
+    },
+    {
+      "id": "304",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3798.92,
+        -1067.75
+      ]
+    },
+    {
+      "id": "301",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3459.15,
+        -1319.87
+      ]
+    },
+    {
+      "id": "305",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3084.2,
+        -2837.86
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://visualdataweb.org/semangit/comment",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment",
+        "iri-based": "comment",
+        "en": "comment"
+      },
+      "pos": [
+        685.67,
+        -637.67
+      ]
+    },
+    {
+      "id": "233",
+      "iri": "http://visualdataweb.org/semangit/github_project_join_event",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_join_event",
+        "iri-based": "github_project_join_event",
+        "en": "github_project_join_event"
+      },
+      "pos": [
+        -658.02,
+        214.89
+      ]
+    },
+    {
+      "id": "160",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_action",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_action",
+        "iri-based": "github_pull_request_action",
+        "en": "github_pull_request_action"
+      },
+      "pos": [
+        1723.23,
+        486.07
+      ]
+    },
+    {
+      "id": "314",
+      "iri": "http://visualdataweb.org/semangit/gitlab_label",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_label",
+        "en": "gitlab_label"
+      },
+      "pos": [
+        4074.97,
+        -3472.48
+      ],
+      "pinned": true
+    },
+    {
+      "id": "25",
+      "iri": "http://visualdataweb.org/semangit/gitlab_note",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_note",
+        "en": "gitlab_note"
+      },
+      "pos": [
+        1266.08,
+        -1594.59
+      ],
+      "pinned": true
+    },
+    {
+      "id": "50",
+      "iri": "http://visualdataweb.org/semangit/followable",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "followable",
+        "iri-based": "followable",
+        "en": "followable"
+      },
+      "pos": [
+        -845.03,
+        27.16
+      ]
+    },
+    {
+      "id": "87",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job",
+        "en": "gitlab_job"
+      },
+      "pos": [
+        6195.72,
+        -1489.4
+      ],
+      "pinned": true
+    },
+    {
+      "id": "85",
+      "iri": "http://visualdataweb.org/semangit/gitlab_repository",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_repository",
+        "iri-based": "gitlab_repository",
+        "en": "gitlab_repository"
+      },
+      "pos": [
+        1156.14,
+        1086.76
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://visualdataweb.org/semangit/pull_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request",
+        "iri-based": "pull_request",
+        "en": "pull_request"
+      },
+      "pos": [
+        1115.91,
+        367.6
+      ]
+    },
+    {
+      "id": "354",
+      "iri": "http://visualdataweb.org/semangit/github_project_milestone",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_milestone",
+        "iri-based": "github_project_milestone",
+        "en": "github_project_milestone"
+      },
+      "pos": [
+        -430.69,
+        1240.13
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://visualdataweb.org/semangit/gitlab_snippet",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_snippet",
+        "iri-based": "gitlab_snippet",
+        "en": "gitlab_snippet"
+      },
+      "pos": [
+        1710.9,
+        -1444.14
+      ],
+      "pinned": true
+    },
+    {
+      "id": "62",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji",
+        "iri-based": "gitlab_award_emoji",
+        "en": "gitlab_award_emoji"
+      },
+      "pos": [
+        2742.96,
+        -899.59
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://visualdataweb.org/semangit/gitlab_time_stats",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_time_stats",
+        "en": "gitlab_time_stats"
+      },
+      "pos": [
+        5300.02,
+        -2368.99
+      ],
+      "pinned": true
+    },
+    {
+      "id": "285",
+      "iri": "http://visualdataweb.org/semangit/github_project_language",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_language",
+        "iri-based": "github_project_language",
+        "en": "github_project_language"
+      },
+      "pos": [
+        -226.99,
+        1476.83
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event",
+        "en": "gitlab_event"
+      },
+      "pos": [
+        4342.17,
+        -658.73
+      ],
+      "pinned": true
+    },
+    {
+      "id": "211",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event",
+        "iri-based": "github_issue_event",
+        "en": "github_issue_event"
+      },
+      "pos": [
+        -890.1,
+        272.45
+      ]
+    },
+    {
+      "id": "102",
+      "iri": "http://visualdataweb.org/semangit/github_issue",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue",
+        "iri-based": "github_issue",
+        "en": "github_issue"
+      },
+      "pos": [
+        -160.56,
+        155.66
+      ]
+    },
+    {
+      "id": "157",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3040,
+        -2913.98
+      ]
+    },
+    {
+      "id": "350",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1156.33,
+        -425.68
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2876.09,
+        -2099.15
+      ]
+    },
+    {
+      "id": "229",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "pos": [
+        6591.04,
+        -1265.17
+      ],
+      "pinned": true
+    },
+    {
+      "id": "276",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        542.59,
+        6.79
+      ]
+    },
+    {
+      "id": "347",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3618.14,
+        -1027.66
+      ]
+    },
+    {
+      "id": "164",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -207.04,
+        2284.99
+      ]
+    },
+    {
+      "id": "287",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1416.97,
+        -2863.4
+      ]
+    },
+    {
+      "id": "337",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1659.09,
+        -186.66
+      ]
+    },
+    {
+      "id": "333",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2819.04,
+        -2183.56
+      ]
+    },
+    {
+      "id": "0",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "dateTime",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6732.17,
+        -1393.93
+      ],
+      "pinned": true
+    },
+    {
+      "id": "192",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "datetime",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6675.12,
+        -1454.26
+      ],
+      "pinned": true
+    },
+    {
+      "id": "175",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "datetime",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6660.3,
+        -1520.93
+      ],
+      "pinned": true
+    },
+    {
+      "id": "88",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "double",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6670.87,
+        -1343.76
+      ],
+      "pinned": true
+    },
+    {
+      "id": "220",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "dateTime",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6601.7,
+        -1097.24
+      ],
+      "pinned": true
+    },
+    {
+      "id": "222",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6363.5,
+        -1054
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId190",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6001.98,
+        -963.03
+      ],
+      "pinned": true
+    },
+    {
+      "id": "Class194",
+      "iri": "http://visualdataweb.org/semangit/gitlab_pipeline",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_pipeline",
+      "pos": [
+        5854.61,
+        -1811.49
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId192",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6240.5,
+        -972.27
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId191",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6544.25,
+        -990.13
+      ],
+      "pinned": true
+    },
+    {
+      "id": "Class195",
+      "iri": "http://visualdataweb.org/semangit/gitlab_artifact",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_artifact",
+      "pos": [
+        6364.06,
+        -1790.14
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId196",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "pos": [
+        6606.24,
+        -1832.66
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId198",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6029.09,
+        -1818.89
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId199",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6628.18,
+        -1769.86
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId197",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        6184.08,
+        -1875.85
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId193",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5696.41,
+        -1166.29
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId189",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5649.45,
+        -1255.85
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId200",
+      "iri": "http://www.w3.org/2001/XMLSchema#boolean",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "boolean",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5842,
+        -998.94
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId201",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5685.93,
+        -1051.87
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId205",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5432.85,
+        -1664.33
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId204",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5436.85,
+        -1745.7
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId203",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5484.99,
+        -1824.92
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId202",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        5503.33,
+        -2011.19
+      ],
+      "pinned": true
+    }
+  ],
+  "property": [
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "14",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "17",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "20",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "30",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "40",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "43",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "46",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "53",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "56",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "59",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "61",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "65",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "68",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "71",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "73",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "78",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "79",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "81",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "83",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "84",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "86",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "89",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "91",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "92",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "94",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "95",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "96",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "97",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "99",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "101",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "103",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "104",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "105",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "106",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "107",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "108",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "109",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "113",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "115",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "119",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "129",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "131",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "134",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "135",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "139",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "147",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "148",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "150",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "152",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "153",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "154",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "155",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "156",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "159",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "162",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "166",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "169",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "177",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "178",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "180",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "181",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "182",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "184",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "193",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "195",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "197",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "198",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "200",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "210",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "213",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "215",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "217",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "219",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "223",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "225",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "227",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "228",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "232",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "236",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "238",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "240",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "242",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "246",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "247",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "248",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "249",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "252",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "254",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "255",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "257",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "261",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "262",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "263",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "265",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "271",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "272",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "274",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "275",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "277",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "279",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "280",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "283",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "284",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "286",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "288",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "289",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "290",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "291",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "292",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "293",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "294",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "295",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "296",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "297",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "298",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "299",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "300",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "302",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "303",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "306",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "307",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "308",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "309",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "310",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "311",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "312",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "313",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "315",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "316",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "317",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "318",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "319",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "320",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "321",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "322",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "323",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "324",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "325",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "326",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "327",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "328",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "329",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "330",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "331",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "332",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "334",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "335",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "336",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "338",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "339",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "340",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "341",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "342",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "343",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "344",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "345",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "346",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "348",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "349",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "351",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "352",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "356",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "360",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "361",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "362",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "363",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "364",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "365",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "366",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "367",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "368",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "369",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "370",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "371",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "372",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "373",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "374",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "375",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "376",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "377",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "378",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "379",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "380",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "381",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "382",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "383",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "384",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "385",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "386",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "387",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "388",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "389",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "390",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "391",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "392",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "393",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "394",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "395",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "396",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "397",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty212",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty213",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty214",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty215",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty216",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty217",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty218",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "datatypeProperty219",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty220",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty221",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty222",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty223",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty224",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty225",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty226",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty227",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty228",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty229",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "9",
+      "iri": "http://visualdataweb.org/semangit/github_repo_label_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_repo_label_name",
+        "iri-based": "github_repo_label_name",
+        "en": "github_repo_label_name"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        1467.19,
+        80.68
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://visualdataweb.org/semangit/github_forked_from",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_forked_from",
+        "iri-based": "github_forked_from",
+        "en": "github_forked_from"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "13",
+      "pos": [
+        -90.1,
+        793.06
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_id",
+        "en": "gitlab_milestone_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "16",
+      "pos": [
+        2289.44,
+        -2696.99
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://visualdataweb.org/semangit/pull_request_head_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_head_commit",
+        "iri-based": "pull_request_head_commit",
+        "en": "pull_request_head_commit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "19",
+      "pos": [
+        1328.05,
+        181.14
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_iid",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_iid",
+        "en": "gitlab_issue_iid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "22",
+      "pos": [
+        3086.66,
+        -2271.36
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://visualdataweb.org/semangit/gitlab_discussion_has_note",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_discussion_has_note",
+        "en": "gitlab_discussion_has_note"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "25",
+      "pos": [
+        1239.15,
+        -1841.65
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://visualdataweb.org/semangit/repository_url",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "repository_url",
+        "iri-based": "repository_url",
+        "en": "repository_url"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "31",
+      "range": "32",
+      "pos": [
+        1164.03,
+        779.34
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://visualdataweb.org/semangit/gitlab_time_stats_human_time_estimate",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_time_stats_human_time_estimate",
+        "en": "gitlab_time_stats_human_time_estimate"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "41",
+      "range": "42",
+      "pos": [
+        5089.32,
+        -2327.13
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_environment",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_environment",
+        "en": "gitlab_deployment_environment"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "44",
+      "range": "45",
+      "pos": [
+        2416.63,
+        -3361.94
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://visualdataweb.org/semangit/github_repo_label_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_repo_label_project",
+        "iri-based": "github_repo_label_project",
+        "en": "github_repo_label_project"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "13",
+      "pos": [
+        274.12,
+        466.05
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_status",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_status",
+        "iri-based": "gitlab_commit_status",
+        "en": "gitlab_commit_status"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "55",
+      "pos": [
+        3724.41,
+        -1326.07
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_name",
+        "iri-based": "gitlab_branch_name",
+        "en": "gitlab_branch_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "57",
+      "pos": [
+        4039.38,
+        -1651.07
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_developers_can_merge",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_developers_can_merge",
+        "iri-based": "gitlab_branch_developers_can_merge",
+        "en": "gitlab_branch_developers_can_merge"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "60",
+      "pos": [
+        3895.65,
+        -1819.01
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_id",
+        "iri-based": "gitlab_award_emoji_id",
+        "en": "gitlab_award_emoji_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "62",
+      "range": "63",
+      "pos": [
+        2636.89,
+        -690.37
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_commit",
+        "iri-based": "gitlab_branch_commit",
+        "en": "gitlab_branch_commit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "54",
+      "pos": [
+        3977.44,
+        -1712.51
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://visualdataweb.org/semangit/comment_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_created_at",
+        "iri-based": "comment_created_at",
+        "en": "comment_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "66",
+      "range": "67",
+      "pos": [
+        570.61,
+        -508.18
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_target_type",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_target_type",
+        "en": "gitlab_event_target_type"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "70",
+      "pos": [
+        4149.16,
+        -495.54
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://visualdataweb.org/semangit/github_user_or_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_or_project",
+        "iri-based": "github_user_or_project",
+        "en": "github_user_or_project"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "58",
+      "range": "72",
+      "pos": [
+        -1605.48,
+        -372.93
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://visualdataweb.org/semangit/pull_request_base_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_base_commit",
+        "iri-based": "pull_request_base_commit",
+        "en": "pull_request_base_commit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "19",
+      "pos": [
+        1369.77,
+        227.04
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "54",
+      "range": "77",
+      "pos": [
+        3662.64,
+        -2194.07
+      ]
+    },
+    {
+      "id": "78",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "54",
+      "range": "19",
+      "pos": [
+        2731.52,
+        -778.21
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "80",
+      "range": "19",
+      "pos": [
+        1298.32,
+        95.04
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_stage",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_stage",
+        "en": "gitlab_deployable_stage"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "82",
+      "pos": [
+        3272.45,
+        -2915.1
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "66",
+      "pos": [
+        975.87,
+        -1116.13
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_author",
+        "en": "gitlab_event_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "69",
+      "range": "48",
+      "pos": [
+        4716.35,
+        -1828.44
+      ]
+    },
+    {
+      "id": "86",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_duration",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_duration",
+        "en": "gitlab_job_duration"
+      },
+      "domain": "87",
+      "range": "88",
+      "pos": [
+        6443.2,
+        -1413.55
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_name",
+        "en": "gitlab_deployable_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "90",
+      "pos": [
+        3244.76,
+        -2784.37
+      ]
+    },
+    {
+      "id": "91",
+      "iri": "http://visualdataweb.org/semangit/comment_pos",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_pos",
+        "iri-based": "comment_pos",
+        "en": "comment_pos"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "66",
+      "range": "7",
+      "pos": [
+        524.19,
+        -625.83
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "93",
+      "range": "75",
+      "pos": [
+        1761.74,
+        -1318.47
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "21",
+      "range": "75",
+      "pos": [
+        2568.14,
+        -1829.01
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "75",
+      "pos": [
+        1539.32,
+        -1393.69
+      ]
+    },
+    {
+      "id": "96",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_milestone",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_milestone",
+        "en": "gitlab_issue_milestone"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "15",
+      "pos": [
+        2926.75,
+        -2650.84
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "80",
+      "range": "98",
+      "pos": [
+        747.99,
+        173.39
+      ]
+    },
+    {
+      "id": "99",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "100",
+      "range": "98",
+      "pos": [
+        594.79,
+        434.3
+      ]
+    },
+    {
+      "id": "101",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "102",
+      "range": "98",
+      "pos": [
+        162,
+        151.23
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://visualdataweb.org/semangit/github_issue_pull_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_pull_request",
+        "iri-based": "github_issue_pull_request",
+        "en": "github_issue_pull_request"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "102",
+      "range": "100",
+      "pos": [
+        272.23,
+        438.73
+      ]
+    },
+    {
+      "id": "104",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "47",
+      "pos": [
+        2910.02,
+        -1610.17
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "49",
+      "range": "47",
+      "pos": [
+        -51.27,
+        -414.62
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "85",
+      "range": "31",
+      "pos": [
+        1160.36,
+        824.96
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "31",
+      "pos": [
+        500.82,
+        603.2
+      ]
+    },
+    {
+      "id": "108",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "74",
+      "range": "75",
+      "pos": [
+        1938.35,
+        -1332.88
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://visualdataweb.org/semangit/github_project_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_id",
+        "iri-based": "github_project_id",
+        "en": "github_project_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "13",
+      "range": "110",
+      "pos": [
+        -159.6,
+        846.77
+      ]
+    },
+    {
+      "id": "111",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_iid",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_iid",
+        "en": "gitlab_deployment_iid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "44",
+      "range": "112",
+      "pos": [
+        1538.86,
+        -3068.53
+      ]
+    },
+    {
+      "id": "113",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_web_url",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_web_url",
+        "en": "gitlab_issue_web_url"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "114",
+      "pos": [
+        3083.36,
+        -2448.27
+      ]
+    },
+    {
+      "id": "115",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_state",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_state",
+        "en": "gitlab_issue_state"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "116",
+      "pos": [
+        3161.03,
+        -2268.03
+      ]
+    },
+    {
+      "id": "119",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_assignee",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_assignee",
+        "en": "gitlab_issue_assignee"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "48",
+      "pos": [
+        4151.96,
+        -2719.41
+      ]
+    },
+    {
+      "id": "129",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_protected",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_protected",
+        "iri-based": "gitlab_branch_protected",
+        "en": "gitlab_branch_protected"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "130",
+      "pos": [
+        4003.16,
+        -1682.31
+      ]
+    },
+    {
+      "id": "131",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_started_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_started_at",
+        "en": "gitlab_deployable_started_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "77",
+      "range": "11",
+      "pos": [
+        2765.58,
+        -1426.27
+      ]
+    },
+    {
+      "id": "134",
+      "iri": "http://visualdataweb.org/semangit/pull_request_user",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_user",
+        "iri-based": "pull_request_user",
+        "en": "pull_request_user"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "47",
+      "pos": [
+        922.7,
+        72.71
+      ]
+    },
+    {
+      "id": "135",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_downvotes",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_downvotes",
+        "en": "gitlab_issue_downvotes"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "3",
+      "pos": [
+        3255.27,
+        -2230.68
+      ]
+    },
+    {
+      "id": "139",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_committer_email",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_committer_email",
+        "iri-based": "gitlab_commit_committer_email",
+        "en": "gitlab_commit_committer_email"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "140",
+      "pos": [
+        3695.95,
+        -1294.08
+      ]
+    },
+    {
+      "id": "147",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_request_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_request_created_at",
+        "iri-based": "gitlab_access_request_created_at",
+        "en": "gitlab_access_request_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "51",
+      "range": "11",
+      "pos": [
+        3641.2,
+        -156.3
+      ]
+    },
+    {
+      "id": "148",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_request_state",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_request_state",
+        "en": "gitlab_access_request_state"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "51",
+      "range": "149",
+      "pos": [
+        5310.28,
+        -149.65
+      ]
+    },
+    {
+      "id": "150",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_project_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_project_id",
+        "en": "gitlab_milestone_project_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "151",
+      "pos": [
+        2286.74,
+        -2748.47
+      ]
+    },
+    {
+      "id": "152",
+      "iri": "http://visualdataweb.org/semangit/github_user_location",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_location",
+        "iri-based": "github_user_location",
+        "en": "github_user_location"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "29",
+      "pos": [
+        -941.05,
+        -754.14
+      ]
+    },
+    {
+      "id": "153",
+      "iri": "http://visualdataweb.org/semangit/github_issue_reporter",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_reporter",
+        "iri-based": "github_issue_reporter",
+        "en": "github_issue_reporter"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "102",
+      "range": "49",
+      "pos": [
+        -492.26,
+        -238.74
+      ]
+    },
+    {
+      "id": "154",
+      "iri": "http://visualdataweb.org/semangit/pull_request_head_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_head_project",
+        "iri-based": "pull_request_head_project",
+        "en": "pull_request_head_project"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "31",
+      "pos": [
+        1006.66,
+        556.64
+      ]
+    },
+    {
+      "id": "155",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_due_date",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_due_date",
+        "en": "gitlab_issue_due_date"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "11",
+      "pos": [
+        2731.33,
+        -1251.75
+      ]
+    },
+    {
+      "id": "156",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_runner",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_runner",
+        "en": "gitlab_deployable_runner"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "157",
+      "pos": [
+        3232.37,
+        -2879.82
+      ]
+    },
+    {
+      "id": "159",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_action_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_action_id",
+        "iri-based": "github_pull_request_action_id",
+        "en": "github_pull_request_action_id"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "160",
+      "range": "11",
+      "pos": [
+        2016.56,
+        201.77
+      ]
+    },
+    {
+      "id": "162",
+      "iri": "http://visualdataweb.org/semangit/programming_language_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "programming_language_name",
+        "iri-based": "programming_language_name",
+        "en": "programming_language_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "163",
+      "range": "164",
+      "pos": [
+        -212.24,
+        2161.44
+      ]
+    },
+    {
+      "id": "166",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_action_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_action_name",
+        "en": "gitlab_event_action_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "167",
+      "pos": [
+        4267.75,
+        -411.36
+      ]
+    },
+    {
+      "id": "169",
+      "iri": "http://visualdataweb.org/semangit/github_user_city",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_city",
+        "iri-based": "github_user_city",
+        "en": "github_user_city"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "170",
+      "pos": [
+        -876.37,
+        -772.94
+      ]
+    },
+    {
+      "id": "177",
+      "iri": "http://visualdataweb.org/semangit/commit_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_author",
+        "iri-based": "commit_author",
+        "en": "commit_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "47",
+      "pos": [
+        1157.5,
+        -82.31
+      ]
+    },
+    {
+      "id": "178",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_commit",
+        "en": "gitlab_job_commit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "87",
+      "range": "54",
+      "pos": [
+        5036.77,
+        -1517.95
+      ]
+    },
+    {
+      "id": "180",
+      "iri": "http://visualdataweb.org/semangit/github_issue_assignee",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_assignee",
+        "iri-based": "github_issue_assignee",
+        "en": "github_issue_assignee"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "102",
+      "range": "49",
+      "pos": [
+        -516.32,
+        -216.99
+      ]
+    },
+    {
+      "id": "181",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_started_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_started_at",
+        "en": "gitlab_job_started_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "87",
+      "range": "175",
+      "pos": [
+        6436.45,
+        -1505.74
+      ]
+    },
+    {
+      "id": "182",
+      "iri": "http://visualdataweb.org/semangit/commit_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_created_at",
+        "iri-based": "commit_created_at",
+        "en": "commit_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "11",
+      "pos": [
+        1904.21,
+        -68.72
+      ]
+    },
+    {
+      "id": "184",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_developers_can_push",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_developers_can_push",
+        "iri-based": "gitlab_branch_developers_can_push",
+        "en": "gitlab_branch_developers_can_push"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "168",
+      "pos": [
+        3875.67,
+        -1774.44
+      ]
+    },
+    {
+      "id": "193",
+      "iri": "http://visualdataweb.org/semangit/github_issue_label_used_by",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_label_used_by",
+        "iri-based": "github_issue_label_used_by",
+        "en": "github_issue_label_used_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "10",
+      "range": "102",
+      "pos": [
+        275.31,
+        222.27
+      ]
+    },
+    {
+      "id": "195",
+      "iri": "http://visualdataweb.org/semangit/github_user_deleted",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_deleted",
+        "iri-based": "github_user_deleted",
+        "en": "github_user_deleted"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "196",
+      "pos": [
+        -706.67,
+        -518.01
+      ]
+    },
+    {
+      "id": "197",
+      "iri": "http://visualdataweb.org/semangit/repository_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "repository_created_at",
+        "iri-based": "repository_created_at",
+        "en": "repository_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "31",
+      "range": "11",
+      "pos": [
+        1693.89,
+        217.82
+      ]
+    },
+    {
+      "id": "198",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_id",
+        "en": "gitlab_deployment_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "44",
+      "range": "199",
+      "pos": [
+        1528.23,
+        -3027.87
+      ]
+    },
+    {
+      "id": "200",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_stats_additions",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_stats_additions",
+        "iri-based": "gitlab_commit_stats_additions",
+        "en": "gitlab_commit_stats_additions"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "201",
+      "pos": [
+        3690.53,
+        -1365.88
+      ]
+    },
+    {
+      "id": "210",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event_action_specific_sha",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event_action_specific_sha",
+        "iri-based": "github_issue_event_action_specific_sha",
+        "en": "github_issue_event_action_specific_sha"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "211",
+      "range": "212",
+      "pos": [
+        -961.05,
+        471.1
+      ]
+    },
+    {
+      "id": "213",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_intra_branch",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_intra_branch",
+        "iri-based": "github_pull_request_intra_branch",
+        "en": "github_pull_request_intra_branch"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "100",
+      "range": "214",
+      "pos": [
+        676.63,
+        944.91
+      ]
+    },
+    {
+      "id": "215",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_project_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_project_id",
+        "en": "gitlab_event_project_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "216",
+      "pos": [
+        4224.53,
+        -397.57
+      ]
+    },
+    {
+      "id": "217",
+      "iri": "http://visualdataweb.org/semangit/github_project_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_name",
+        "iri-based": "github_project_name",
+        "en": "github_project_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "13",
+      "range": "205",
+      "pos": [
+        -107.1,
+        846.78
+      ]
+    },
+    {
+      "id": "219",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_created_at",
+        "en": "gitlab_event_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "69",
+      "range": "11",
+      "pos": [
+        3282.69,
+        -393.13
+      ]
+    },
+    {
+      "id": "223",
+      "iri": "http://visualdataweb.org/semangit/comment_line",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_line",
+        "iri-based": "comment_line",
+        "en": "comment_line"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "66",
+      "range": "206",
+      "pos": [
+        542.06,
+        -696.16
+      ]
+    },
+    {
+      "id": "225",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_authored_date",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_authored_date",
+        "iri-based": "gitlab_commit_authored_date",
+        "en": "gitlab_commit_authored_date"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "54",
+      "range": "11",
+      "pos": [
+        3026.96,
+        -777.2
+      ]
+    },
+    {
+      "id": "227",
+      "iri": "http://visualdataweb.org/semangit/github_project_deleted",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_deleted",
+        "iri-based": "github_project_deleted",
+        "en": "github_project_deleted"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "13",
+      "range": "194",
+      "pos": [
+        -250.21,
+        848.09
+      ]
+    },
+    {
+      "id": "228",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_coverage",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_coverage",
+        "en": "gitlab_job_coverage"
+      },
+      "domain": "87",
+      "range": "229",
+      "pos": [
+        6406.31,
+        -1369.95
+      ]
+    },
+    {
+      "id": "232",
+      "iri": "http://visualdataweb.org/semangit/github_project_join_event_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_join_event_created_at",
+        "iri-based": "github_project_join_event_created_at",
+        "en": "github_project_join_event_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "233",
+      "range": "234",
+      "pos": [
+        -726.55,
+        403.07
+      ]
+    },
+    {
+      "id": "236",
+      "iri": "http://visualdataweb.org/semangit/commit_has_parent",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_has_parent",
+        "iri-based": "commit_has_parent",
+        "en": "commit_has_parent"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "19",
+      "pos": [
+        1632.23,
+        145.05
+      ]
+    },
+    {
+      "id": "238",
+      "iri": "http://visualdataweb.org/semangit/github_userid",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_userid",
+        "iri-based": "github_userid",
+        "en": "github_userid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "239",
+      "pos": [
+        -989.81,
+        -467.07
+      ]
+    },
+    {
+      "id": "240",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_author",
+        "en": "gitlab_deployable_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "77",
+      "range": "48",
+      "pos": [
+        4269,
+        -2919.89
+      ]
+    },
+    {
+      "id": "242",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_description",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_description",
+        "en": "gitlab_issue_description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "230",
+      "pos": [
+        3056.75,
+        -2411.88
+      ]
+    },
+    {
+      "id": "246",
+      "iri": "http://visualdataweb.org/semangit/coverage",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "coverage",
+        "en": "coverage"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "28",
+      "pos": [
+        3323.15,
+        -2715.08
+      ]
+    },
+    {
+      "id": "247",
+      "iri": "http://visualdataweb.org/semangit/commit_belongs_to_repository",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_belongs_to_repository",
+        "iri-based": "commit_belongs_to_repository",
+        "en": "commit_belongs_to_repository"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "31",
+      "pos": [
+        1374.9,
+        276.63
+      ]
+    },
+    {
+      "id": "248",
+      "iri": "http://visualdataweb.org/semangit/comment_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_author",
+        "iri-based": "comment_author",
+        "en": "comment_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "66",
+      "range": "47",
+      "pos": [
+        707.59,
+        -429.93
+      ]
+    },
+    {
+      "id": "249",
+      "iri": "http://visualdataweb.org/semangit/github_user_country_code",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_country_code",
+        "iri-based": "github_user_country_code",
+        "en": "github_user_country_code"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "250",
+      "pos": [
+        -949.78,
+        -445.56
+      ]
+    },
+    {
+      "id": "252",
+      "iri": "http://visualdataweb.org/semangit/github_user_lat",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_lat",
+        "iri-based": "github_user_lat",
+        "en": "github_user_lat"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "237",
+      "pos": [
+        -1022.24,
+        -621.92
+      ]
+    },
+    {
+      "id": "254",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_closed_by",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_closed_by",
+        "en": "gitlab_issue_closed_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "48",
+      "pos": [
+        4150.81,
+        -2682.77
+      ]
+    },
+    {
+      "id": "255",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_created_at",
+        "en": "gitlab_deployable_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "77",
+      "range": "11",
+      "pos": [
+        2799.68,
+        -1410.8
+      ]
+    },
+    {
+      "id": "257",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_user_notes_count",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_user_notes_count",
+        "en": "gitlab_issue_user_notes_count"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "235",
+      "pos": [
+        3130.79,
+        -2237
+      ]
+    },
+    {
+      "id": "261",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_action_type",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_action_type",
+        "iri-based": "github_pull_request_action_type",
+        "en": "github_pull_request_action_type"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "160",
+      "range": "11",
+      "pos": [
+        1990.7,
+        176.59
+      ]
+    },
+    {
+      "id": "262",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_id",
+        "en": "gitlab_issue_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "27",
+      "pos": [
+        3102.53,
+        -2389.77
+      ]
+    },
+    {
+      "id": "263",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_closed_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_closed_at",
+        "en": "gitlab_issue_closed_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "11",
+      "pos": [
+        2720.61,
+        -1281.83
+      ]
+    },
+    {
+      "id": "265",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event_actor",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event_actor",
+        "iri-based": "github_issue_event_actor",
+        "en": "github_issue_event_actor"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "211",
+      "range": "49",
+      "pos": [
+        -861.07,
+        -167.31
+      ]
+    },
+    {
+      "id": "271",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_author",
+        "en": "gitlab_issue_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "48",
+      "pos": [
+        4124.5,
+        -2704.37
+      ]
+    },
+    {
+      "id": "272",
+      "iri": "http://visualdataweb.org/semangit/github_user_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_created_at",
+        "iri-based": "github_user_created_at",
+        "en": "github_user_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "258",
+      "pos": [
+        -984.87,
+        -715.25
+      ]
+    },
+    {
+      "id": "274",
+      "iri": "http://visualdataweb.org/semangit/github_has_owner",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_has_owner",
+        "iri-based": "github_has_owner",
+        "en": "github_has_owner"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "49",
+      "pos": [
+        -497.49,
+        18.08
+      ]
+    },
+    {
+      "id": "275",
+      "iri": "http://visualdataweb.org/semangit/user_email",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "user_email",
+        "iri-based": "user_email",
+        "en": "user_email"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "47",
+      "range": "276",
+      "pos": [
+        624.32,
+        -93.33
+      ]
+    },
+    {
+      "id": "277",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_upvotes",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_upvotes",
+        "en": "gitlab_issue_upvotes"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "278",
+      "pos": [
+        3211,
+        -2246.2
+      ]
+    },
+    {
+      "id": "279",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_updated_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_updated_at",
+        "en": "gitlab_issue_updated_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "11",
+      "pos": [
+        2764.8,
+        -1254.59
+      ]
+    },
+    {
+      "id": "280",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_finished_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_finished_at",
+        "en": "gitlab_job_finished_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "87",
+      "range": "0",
+      "pos": [
+        6471.06,
+        -1440.4
+      ]
+    },
+    {
+      "id": "283",
+      "iri": "http://visualdataweb.org/semangit/github_organization_joined_by",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_organization_joined_by",
+        "iri-based": "github_organization_joined_by",
+        "en": "github_organiszation_joined_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "179",
+      "range": "49",
+      "pos": [
+        -807.52,
+        -896.89
+      ]
+    },
+    {
+      "id": "284",
+      "iri": "http://visualdataweb.org/semangit/github_project_language_timestamp",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_language_timestamp",
+        "iri-based": "github_project_language_timestamp",
+        "en": "github_project_language_timestamp"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "285",
+      "range": "39",
+      "pos": [
+        -277.54,
+        1653.92
+      ]
+    },
+    {
+      "id": "286",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_sha",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_sha",
+        "en": "gitlab_deployment_sha"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "44",
+      "range": "287",
+      "pos": [
+        1565.66,
+        -2999.13
+      ]
+    },
+    {
+      "id": "288",
+      "iri": "http://visualdataweb.org/semangit/comment_for",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_for",
+        "iri-based": "comment_for",
+        "en": "comment_for"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "66",
+      "range": "98",
+      "pos": [
+        585.11,
+        -245.44
+      ]
+    },
+    {
+      "id": "289",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_updated_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_updated_at",
+        "en": "gitlab_milestone_updated_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "11",
+      "pos": [
+        2343.65,
+        -1384.97
+      ]
+    },
+    {
+      "id": "290",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event_action",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event_action",
+        "iri-based": "github_issue_event_action",
+        "en": "github_issue_event_action"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "211",
+      "range": "187",
+      "pos": [
+        -1011.05,
+        447.43
+      ]
+    },
+    {
+      "id": "291",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event_for",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event_for",
+        "iri-based": "github_issue_event_for",
+        "en": "github_issue_event_for"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "211",
+      "range": "102",
+      "pos": [
+        -525.33,
+        214.06
+      ]
+    },
+    {
+      "id": "292",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_ref",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_ref",
+        "en": "gitlab_deployment_ref"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "44",
+      "range": "253",
+      "pos": [
+        1523.03,
+        -3110.16
+      ]
+    },
+    {
+      "id": "293",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_state",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_state",
+        "en": "gitlab_milestone_state"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "176",
+      "pos": [
+        2326.72,
+        -2709.61
+      ]
+    },
+    {
+      "id": "294",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_job_created_at",
+        "en": "gitlab_job_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "87",
+      "range": "192",
+      "pos": [
+        6443.85,
+        -1471.21
+      ]
+    },
+    {
+      "id": "295",
+      "iri": "http://visualdataweb.org/semangit/github_project_language_repo",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_language_repo",
+        "iri-based": "github_project_language_repo",
+        "en": "github_project_language_repo"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "285",
+      "range": "13",
+      "pos": [
+        -194.97,
+        1060.03
+      ]
+    },
+    {
+      "id": "296",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_weight",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_weight",
+        "en": "gitlab_issue_weight"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "218",
+      "pos": [
+        3182.13,
+        -2218.53
+      ]
+    },
+    {
+      "id": "297",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_committed_date",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_committed_date",
+        "iri-based": "gitlab_commit_committed_date",
+        "en": "gitlab_commit_committed_date"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "54",
+      "range": "11",
+      "pos": [
+        3014.19,
+        -802.61
+      ]
+    },
+    {
+      "id": "298",
+      "iri": "http://visualdataweb.org/semangit/github_follows",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_follows",
+        "iri-based": "github_follows",
+        "en": "github_follows"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "58",
+      "range": "50",
+      "pos": [
+        -1149.89,
+        -218.44
+      ]
+    },
+    {
+      "id": "299",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_committer_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_committer_name",
+        "iri-based": "gitlab_commit_committer_name",
+        "en": "gitlab_commit_committer_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "221",
+      "pos": [
+        3795.37,
+        -1263.59
+      ]
+    },
+    {
+      "id": "300",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_author_email",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_author_email",
+        "iri-based": "gitlab_commit_author_email",
+        "en": "gitlab_commit_author_email"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "301",
+      "pos": [
+        3655.74,
+        -1426.28
+      ]
+    },
+    {
+      "id": "302",
+      "iri": "http://visualdataweb.org/semangit/github_project_joined",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_joined",
+        "iri-based": "github_project_joined",
+        "en": "github_project_joined"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "233",
+      "range": "13",
+      "pos": [
+        -410.48,
+        429.06
+      ]
+    },
+    {
+      "id": "303",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_time_stats",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_time_stats",
+        "en": "gitlab_issue_time_stats"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "41",
+      "pos": [
+        4311.86,
+        -2417.1
+      ]
+    },
+    {
+      "id": "306",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_request_access_level",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_request_access_level",
+        "iri-based": "gitlab_access_request_access_level",
+        "en": "gitlab_access_request_access_level"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "51",
+      "range": "256",
+      "pos": [
+        5283.87,
+        -188.63
+      ]
+    },
+    {
+      "id": "307",
+      "iri": "http://visualdataweb.org/semangit/gitlab_environment_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_environment_name",
+        "en": "gitlab_environment_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "45",
+      "range": "207",
+      "pos": [
+        2909.14,
+        -3462.35
+      ]
+    },
+    {
+      "id": "308",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_confidential",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_confidential",
+        "en": "gitlab_issue_confidential"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "190",
+      "pos": [
+        3120.84,
+        -2295.49
+      ]
+    },
+    {
+      "id": "309",
+      "iri": "http://visualdataweb.org/semangit/github_organization_joined_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_organization_joined_at",
+        "iri-based": "github_organization_joined_at",
+        "en": "github_organization_joined_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "179",
+      "range": "224",
+      "pos": [
+        -896.71,
+        -1284.03
+      ]
+    },
+    {
+      "id": "310",
+      "iri": "http://visualdataweb.org/semangit/commit_commited_by",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_commited_by",
+        "iri-based": "commit_commited_by",
+        "en": "commit_commited_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "47",
+      "pos": [
+        1166.37,
+        -115.3
+      ]
+    },
+    {
+      "id": "311",
+      "iri": "http://visualdataweb.org/semangit/github_issue_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_project",
+        "iri-based": "github_issue_project",
+        "en": "github_issue_project"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "102",
+      "range": "13",
+      "pos": [
+        -161.75,
+        399.44
+      ]
+    },
+    {
+      "id": "312",
+      "iri": "http://visualdataweb.org/semangit/gitlab_environment_external_url",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_environment_external_url",
+        "en": "gitlab_environment_external_url"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "45",
+      "range": "188",
+      "pos": [
+        2874.6,
+        -3494.49
+      ]
+    },
+    {
+      "id": "313",
+      "iri": "http://visualdataweb.org/semangit/gitlab_environment_slug",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_environment_slug",
+        "en": "gitlab_environment_slug"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "45",
+      "range": "244",
+      "pos": [
+        2876.28,
+        -3571.38
+      ]
+    },
+    {
+      "id": "315",
+      "iri": "http://visualdataweb.org/semangit/gitlab_time_stats_human_total_time_spent",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_time_stats_human_total_time_spent",
+        "en": "gitlab_time_stats_human_total_time_spent"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "41",
+      "range": "243",
+      "pos": [
+        5092.71,
+        -2281.43
+      ]
+    },
+    {
+      "id": "316",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_id",
+        "iri-based": "github_pull_request_id",
+        "en": "github_pull_request_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "100",
+      "range": "241",
+      "pos": [
+        727.49,
+        940.52
+      ]
+    },
+    {
+      "id": "317",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_created_at",
+        "en": "gitlab_milestone_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "11",
+      "pos": [
+        2311.55,
+        -1397.22
+      ]
+    },
+    {
+      "id": "318",
+      "iri": "http://visualdataweb.org/semangit/github_user_is_org",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_is_org",
+        "iri-based": "github_user_is_org",
+        "en": "github_user_is_org"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "5",
+      "pos": [
+        -1025.8,
+        -561.36
+      ]
+    },
+    {
+      "id": "319",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_request_requested_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_request_requested_at",
+        "iri-based": "gitlab_access_request_requested_at",
+        "en": "gitlab_access_request_requested_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "51",
+      "range": "11",
+      "pos": [
+        3638.25,
+        -185.71
+      ]
+    },
+    {
+      "id": "320",
+      "iri": "http://visualdataweb.org/semangit/github_issue_event_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_event_created_at",
+        "iri-based": "github_issue_event_created_at",
+        "en": "github_issue_event_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "211",
+      "range": "251",
+      "pos": [
+        -1044.55,
+        399.53
+      ]
+    },
+    {
+      "id": "321",
+      "iri": "http://visualdataweb.org/semangit/github_project_joining_user",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_joining_user",
+        "iri-based": "github_project_joining_user",
+        "en": "github_project_joining_user"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "233",
+      "range": "49",
+      "pos": [
+        -745.03,
+        -196.09
+      ]
+    },
+    {
+      "id": "322",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_default",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_default",
+        "iri-based": "gitlab_branch_default",
+        "en": "gitlab_branch_default"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "36",
+      "pos": [
+        3910.32,
+        -1741.32
+      ]
+    },
+    {
+      "id": "323",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_awarded_to",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_awarded_to",
+        "iri-based": "gitlab_award_emoji_awarded_to",
+        "en": "gitlab_award_emoji_awarded_to"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "62",
+      "range": "75",
+      "pos": [
+        2277.77,
+        -1046.19
+      ]
+    },
+    {
+      "id": "324",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_stats_total",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_stats_total",
+        "iri-based": "gitlab_commit_stats_total",
+        "en": "gitlab_commit_stats_total"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "264",
+      "pos": [
+        3663.25,
+        -1331.2
+      ]
+    },
+    {
+      "id": "325",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_id",
+        "en": "gitlab_deployable_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "305",
+      "pos": [
+        3255.08,
+        -2839.64
+      ]
+    },
+    {
+      "id": "326",
+      "iri": "http://visualdataweb.org/semangit/gitlab_time_stats_total_time_spent",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_time_stats_total_time_spent",
+        "en": "gitlab_time_stats_total_time_spent"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "41",
+      "range": "269",
+      "pos": [
+        5124.93,
+        -2204.75
+      ]
+    },
+    {
+      "id": "327",
+      "iri": "http://visualdataweb.org/semangit/github_issue_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_id",
+        "iri-based": "github_issue_id",
+        "en": "github_issue_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "102",
+      "range": "172",
+      "pos": [
+        -178.8,
+        339.53
+      ]
+    },
+    {
+      "id": "328",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_discussion_locked",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_discussion_locked",
+        "en": "gitlab_issue_discussion_locked"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "260",
+      "pos": [
+        3100.19,
+        -2337.09
+      ]
+    },
+    {
+      "id": "329",
+      "iri": "http://visualdataweb.org/semangit/gitlab_time_stats_time_estimate",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_time_stats_time_estimate",
+        "en": "gitlab_time_stats_time_estimate"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "41",
+      "range": "266",
+      "pos": [
+        5093.51,
+        -2237.68
+      ]
+    },
+    {
+      "id": "330",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_action_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_action_created_at",
+        "iri-based": "github_pull_request_action_created_at",
+        "en": "github_pull_request_action_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "160",
+      "range": "35",
+      "pos": [
+        1715.97,
+        702.06
+      ]
+    },
+    {
+      "id": "331",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_name",
+        "iri-based": "gitlab_award_emoji_name",
+        "en": "gitlab_award_emoji_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "62",
+      "range": "34",
+      "pos": [
+        2577.25,
+        -737.46
+      ]
+    },
+    {
+      "id": "332",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_title",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_title",
+        "en": "gitlab_issue_title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "333",
+      "pos": [
+        3058.5,
+        -2317.21
+      ]
+    },
+    {
+      "id": "334",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_updated_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_updated_at",
+        "iri-based": "gitlab_award_emoji_updated_at",
+        "en": "gitlab_award_emoji_updated_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "62",
+      "range": "11",
+      "pos": [
+        2425.97,
+        -459.56
+      ]
+    },
+    {
+      "id": "335",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_parent",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_parent",
+        "iri-based": "gitlab_commit_parent",
+        "en": "gitlab_commit_parent"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "54",
+      "range": "54",
+      "pos": [
+        3832.12,
+        -1374.64
+      ]
+    },
+    {
+      "id": "336",
+      "iri": "http://visualdataweb.org/semangit/github_following_since",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_following_since",
+        "iri-based": "github_following_since",
+        "en": "github_following_since"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "58",
+      "range": "337",
+      "pos": [
+        -1568.07,
+        -310.22
+      ]
+    },
+    {
+      "id": "338",
+      "iri": "http://visualdataweb.org/semangit/github_follower",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_follower",
+        "iri-based": "github_follower",
+        "en": "github_follower"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "58",
+      "range": "49",
+      "pos": [
+        -1143.4,
+        -535.56
+      ]
+    },
+    {
+      "id": "339",
+      "iri": "http://visualdataweb.org/semangit/github_login",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_login",
+        "iri-based": "github_login",
+        "en": "github_login"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "33",
+      "pos": [
+        -1005.35,
+        -667.76
+      ]
+    },
+    {
+      "id": "340",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_title",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_title",
+        "iri-based": "gitlab_commit_title",
+        "en": "gitlab_commit_title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "304",
+      "pos": [
+        3835.13,
+        -1287.46
+      ]
+    },
+    {
+      "id": "341",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_created_at",
+        "iri-based": "gitlab_award_emoji_created_at",
+        "en": "gitlab_award_emoji_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "62",
+      "range": "11",
+      "pos": [
+        2454.33,
+        -438.78
+      ]
+    },
+    {
+      "id": "342",
+      "iri": "http://visualdataweb.org/semangit/github_user_state",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_state",
+        "iri-based": "github_user_state",
+        "en": "github_user_state"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "38",
+      "pos": [
+        -917.63,
+        -412.4
+      ]
+    },
+    {
+      "id": "343",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_merged",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_merged",
+        "iri-based": "github_pull_request_merged",
+        "en": "github_pull_request_merged"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "100",
+      "range": "37",
+      "pos": [
+        629.72,
+        922.66
+      ]
+    },
+    {
+      "id": "344",
+      "iri": "http://visualdataweb.org/semangit/gitlab_environment_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_environment_id",
+        "en": "gitlab_environment_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "45",
+      "range": "174",
+      "pos": [
+        2894.33,
+        -3531.63
+      ]
+    },
+    {
+      "id": "345",
+      "iri": "http://visualdataweb.org/semangit/github_organization_is_joined",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_organization_is_joined",
+        "iri-based": "github_organization_is_joined",
+        "en": "github_organization_is_joined"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "179",
+      "range": "49",
+      "pos": [
+        -767.02,
+        -888.5
+      ]
+    },
+    {
+      "id": "346",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_author_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_author_name",
+        "iri-based": "gitlab_commit_author_name",
+        "en": "gitlab_commit_author_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "347",
+      "pos": [
+        3739.3,
+        -1269.73
+      ]
+    },
+    {
+      "id": "348",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_finished_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_finished_at",
+        "en": "gitlab_deployable_finished_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "77",
+      "range": "11",
+      "pos": [
+        2794.03,
+        -1441.5
+      ]
+    },
+    {
+      "id": "349",
+      "iri": "http://visualdataweb.org/semangit/github_user_lng",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_lng",
+        "iri-based": "github_user_lng",
+        "en": "github_user_lng"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "350",
+      "pos": [
+        -1007.07,
+        -509.17
+      ]
+    },
+    {
+      "id": "351",
+      "iri": "http://visualdataweb.org/semangit/github_user_fake",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_user_fake",
+        "iri-based": "github_user_fake",
+        "en": "github_user_fake"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "171",
+      "pos": [
+        -870,
+        -424.9
+      ]
+    },
+    {
+      "id": "352",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_label",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_label",
+        "en": "gitlab_issue_label"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "314",
+      "pos": [
+        3699.34,
+        -2968.85
+      ]
+    },
+    {
+      "id": "356",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_status",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_status",
+        "en": "gitlab_deployable_status"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "183",
+      "pos": [
+        3211.76,
+        -2822.38
+      ]
+    },
+    {
+      "id": "360",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_artifacts_expire_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": "gitlab_job_artifacts_expire_at",
+      "domain": "87",
+      "range": "220",
+      "pos": [
+        6411.51,
+        -1280.95
+      ]
+    },
+    {
+      "id": "361",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": "gitlab_job_id",
+      "domain": "87",
+      "range": "222",
+      "pos": [
+        6286.67,
+        -1253.37
+      ]
+    },
+    {
+      "id": "362",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_target_title",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_target_title",
+        "en": "gitlab_event_target_title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "173",
+      "pos": [
+        4154.25,
+        -455.31
+      ]
+    },
+    {
+      "id": "363",
+      "iri": "http://visualdataweb.org/semangit/pull_request_base_project",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_base_project",
+        "iri-based": "pull_request_base_project",
+        "en": "pull_request_base_project"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "31",
+      "pos": [
+        1027.35,
+        605.12
+      ]
+    },
+    {
+      "id": "364",
+      "iri": "http://visualdataweb.org/semangit/pull_request_has_commit",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "pull_request_has_commit",
+        "iri-based": "pull_request_has_commit",
+        "en": "pull_request_has_commit"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "19",
+      "pos": [
+        1358.26,
+        195.66
+      ]
+    },
+    {
+      "id": "365",
+      "iri": "http://visualdataweb.org/semangit/commit_message",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_message",
+        "iri-based": "commit_message",
+        "en": "commit_message"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "19",
+      "range": "209",
+      "pos": [
+        1551.75,
+        203.54
+      ]
+    },
+    {
+      "id": "366",
+      "iri": "http://visualdataweb.org/semangit/github_project_has_milestone",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_has_milestone",
+        "iri-based": "github_project_has_milestone",
+        "en": "github_project_has_milestone"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "354",
+      "pos": [
+        -296.82,
+        941.67
+      ]
+    },
+    {
+      "id": "367",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "49",
+      "range": "50",
+      "pos": [
+        -838.54,
+        -289.95
+      ]
+    },
+    {
+      "id": "368",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "50",
+      "pos": [
+        -503.99,
+        335.19
+      ]
+    },
+    {
+      "id": "369",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "100",
+      "range": "18",
+      "pos": [
+        910.46,
+        544.7
+      ]
+    },
+    {
+      "id": "370",
+      "iri": "http://visualdataweb.org/semangit/github_project_milestone_name",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_milestone_name",
+        "iri-based": "github_project_milestone_name",
+        "en": "github_project_milestone_name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "354",
+      "range": "273",
+      "pos": [
+        -513.89,
+        1408.98
+      ]
+    },
+    {
+      "id": "371",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_created_at",
+        "en": "gitlab_deployment_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "44",
+      "range": "11",
+      "pos": [
+        1981.76,
+        -1643.05
+      ]
+    },
+    {
+      "id": "372",
+      "iri": "http://visualdataweb.org/semangit/gitlab_discussion_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_discussion_id",
+        "en": "gitlab_discussion_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "24",
+      "range": "268",
+      "pos": [
+        1043.45,
+        -1962.8
+      ]
+    },
+    {
+      "id": "373",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_created_at",
+        "en": "gitlab_issue_created_at"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "11",
+      "pos": [
+        2754.8,
+        -1285.37
+      ]
+    },
+    {
+      "id": "374",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_description",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_description",
+        "en": "gitlab_milestone_description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "26",
+      "pos": [
+        2303.84,
+        -2779.58
+      ]
+    },
+    {
+      "id": "375",
+      "iri": "http://visualdataweb.org/semangit/gitlab_discussion_individual_note",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_discussion_individual_note",
+        "en": "gitlab_discussion_individual_note"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "24",
+      "range": "270",
+      "pos": [
+        1028.35,
+        -2018.45
+      ]
+    },
+    {
+      "id": "376",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_related_issue",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_related_issue",
+        "en": "gitlab_issue_related_issue"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "21",
+      "range": "21",
+      "pos": [
+        3333.04,
+        -2294.27
+      ]
+    },
+    {
+      "id": "377",
+      "iri": "http://visualdataweb.org/semangit/github_project_language_is",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_language_is",
+        "iri-based": "github_project_language_is",
+        "en": "github_project_language_is"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "285",
+      "range": "163",
+      "pos": [
+        -223.05,
+        1737.39
+      ]
+    },
+    {
+      "id": "378",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployable_tag",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployable_tag",
+        "en": "gitlab_deployable_tag"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "77",
+      "range": "2",
+      "pos": [
+        3274.16,
+        -2751.93
+      ]
+    },
+    {
+      "id": "379",
+      "iri": "http://visualdataweb.org/semangit/commit_sha",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "commit_sha",
+        "iri-based": "commit_sha",
+        "en": "commit_sha"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "19",
+      "range": "245",
+      "pos": [
+        1605.94,
+        201.21
+      ]
+    },
+    {
+      "id": "380",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_author",
+        "en": "gitlab_deployment_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "44",
+      "range": "48",
+      "pos": [
+        3415.43,
+        -3078.36
+      ]
+    },
+    {
+      "id": "381",
+      "iri": "http://visualdataweb.org/semangit/gitlab_deployment_deployable",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_deployment_deployable",
+        "en": "gitlab_deployment_deployable"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "44",
+      "range": "77",
+      "pos": [
+        2593.89,
+        -3000.1
+      ]
+    },
+    {
+      "id": "382",
+      "iri": "http://visualdataweb.org/semangit/github_issue_created_at",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_issue_created_at",
+        "iri-based": "github_issue_created_at",
+        "en": "github_issue_created_at"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "102",
+      "range": "259",
+      "pos": [
+        -243.12,
+        319.65
+      ]
+    },
+    {
+      "id": "383",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_title",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_title",
+        "en": "gitlab_milestone_title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "282",
+      "pos": [
+        2297.23,
+        -2822.91
+      ]
+    },
+    {
+      "id": "384",
+      "iri": "http://visualdataweb.org/semangit/github_company",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_company",
+        "iri-based": "github_company",
+        "en": "github_company"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "49",
+      "range": "208",
+      "pos": [
+        -693.23,
+        -644.55
+      ]
+    },
+    {
+      "id": "385",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_iid",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_iid",
+        "en": "gitlab_milestone_iid"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "15",
+      "range": "186",
+      "pos": [
+        2334.16,
+        -2661.03
+      ]
+    },
+    {
+      "id": "386",
+      "iri": "http://visualdataweb.org/semangit/gitlab_milestone_due_date",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_milestone_due_date",
+        "en": "gitlab_milestone_due_date"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "11",
+      "pos": [
+        2338.38,
+        -1416.75
+      ]
+    },
+    {
+      "id": "387",
+      "iri": "http://visualdataweb.org/semangit/github_project_description",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_project_description",
+        "iri-based": "github_project_description",
+        "en": "github_project_description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "13",
+      "range": "52",
+      "pos": [
+        -299.49,
+        797.6
+      ]
+    },
+    {
+      "id": "388",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_title",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_title",
+        "en": "gitlab_event_title"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "189",
+      "pos": [
+        4211.44,
+        -445.29
+      ]
+    },
+    {
+      "id": "389",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_stats_deletions",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_stats_deletions",
+        "iri-based": "gitlab_commit_stats_deletions",
+        "en": "gitlab_commit_stats_deletions"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "4",
+      "pos": [
+        3772.08,
+        -1301.15
+      ]
+    },
+    {
+      "id": "390",
+      "iri": "http://visualdataweb.org/semangit/comment_body",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "comment_body",
+        "iri-based": "comment_body",
+        "en": "comment_body"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "66",
+      "range": "1",
+      "pos": [
+        533.59,
+        -562.94
+      ]
+    },
+    {
+      "id": "391",
+      "iri": "http://visualdataweb.org/semangit/gitlab_branch_merged",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_branch_merged",
+        "iri-based": "gitlab_branch_merged",
+        "en": "gitlab_branch_merged"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "185",
+      "pos": [
+        4085.18,
+        -1661.05
+      ]
+    },
+    {
+      "id": "392",
+      "iri": "http://visualdataweb.org/semangit/gitlab_award_emoji_author",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_award_emoji_author",
+        "iri-based": "gitlab_award_emoji_author",
+        "en": "gitlab_award_emoji_author"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "62",
+      "range": "48",
+      "pos": [
+        3916.75,
+        -1948.87
+      ]
+    },
+    {
+      "id": "393",
+      "iri": "http://visualdataweb.org/semangit/gitlab_event_target_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_event_target_id",
+        "en": "gitlab_event_target_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "69",
+      "range": "231",
+      "pos": [
+        4177.87,
+        -416.87
+      ]
+    },
+    {
+      "id": "394",
+      "iri": "http://visualdataweb.org/semangit/gitlab_access_token_requested_by",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_access_token_requested_by",
+        "iri-based": "gitlab_access_token_requested_by",
+        "en": "gitlab_access_token_requested_by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "51",
+      "range": "48",
+      "pos": [
+        5290.67,
+        -1669.28
+      ]
+    },
+    {
+      "id": "395",
+      "iri": "http://visualdataweb.org/semangit/gitlab_commit_short_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_commit_short_id",
+        "iri-based": "gitlab_commit_short_id",
+        "en": "gitlab_commit_short_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "54",
+      "range": "267",
+      "pos": [
+        3647.48,
+        -1381.68
+      ]
+    },
+    {
+      "id": "396",
+      "iri": "http://visualdataweb.org/semangit/gitlab_issue_project_id",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "gitlab_issue_project_id",
+        "en": "gitlab_issue_project_id"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "281",
+      "pos": [
+        3059.49,
+        -2367.71
+      ]
+    },
+    {
+      "id": "397",
+      "iri": "http://visualdataweb.org/semangit/github_pull_request_action_pull_request",
+      "baseIri": "http://visualdataweb.org/semangit",
+      "label": {
+        "IRI-based": "github_pull_request_action_pull_request",
+        "iri-based": "github_pull_request_action_pull_request",
+        "en": "github_pull_request_action_pull_request"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "160",
+      "range": "100",
+      "pos": [
+        1214.13,
+        603.93
+      ]
+    },
+    {
+      "id": "datatypeProperty212",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_status",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_status",
+      "domain": "87",
+      "range": "NodeId189",
+      "pos": [
+        5911.29,
+        -1367.8
+      ]
+    },
+    {
+      "id": "datatypeProperty213",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_runner",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_runner",
+      "domain": "87",
+      "range": "NodeId190",
+      "pos": [
+        6092.06,
+        -1207.75
+      ]
+    },
+    {
+      "id": "datatypeProperty214",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_ref",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_ref",
+      "domain": "87",
+      "range": "NodeId191",
+      "pos": [
+        6380.8,
+        -1224.27
+      ]
+    },
+    {
+      "id": "datatypeProperty215",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_name",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_name",
+      "domain": "87",
+      "range": "NodeId192",
+      "pos": [
+        6219.83,
+        -1210.93
+      ]
+    },
+    {
+      "id": "datatypeProperty216",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_stage",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_stage",
+      "domain": "87",
+      "range": "NodeId193",
+      "pos": [
+        5932.8,
+        -1319.26
+      ]
+    },
+    {
+      "id": "objectProperty217",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_pipeline",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_pipeline",
+      "attributes": [
+        "object"
+      ],
+      "domain": "87",
+      "range": "Class194",
+      "pos": [
+        6025.16,
+        -1650.45
+      ]
+    },
+    {
+      "id": "objectProperty218",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_has_artifact",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_has_artifact",
+      "attributes": [
+        "object"
+      ],
+      "domain": "87",
+      "range": "Class195",
+      "pos": [
+        6279.89,
+        -1639.77
+      ]
+    },
+    {
+      "id": "datatypeProperty219",
+      "iri": "http://visualdataweb.org/semangit/gitlab_artifact_file_type",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_artifact_file_type",
+      "domain": "Class195",
+      "range": "NodeId196",
+      "pos": [
+        6497.52,
+        -1813.58
+      ]
+    },
+    {
+      "id": "datatypeProperty220",
+      "iri": "http://visualdataweb.org/semangit/gitlab_artifact_file_format",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_artifact_file_format",
+      "domain": "Class195",
+      "range": "NodeId197",
+      "pos": [
+        6262,
+        -1838.74
+      ]
+    },
+    {
+      "id": "datatypeProperty221",
+      "iri": "http://visualdataweb.org/semangit/gitlab_artifact_size",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_artifact_size",
+      "domain": "Class195",
+      "range": "NodeId198",
+      "pos": [
+        6183.92,
+        -1805.6
+      ]
+    },
+    {
+      "id": "datatypeProperty222",
+      "iri": "http://visualdataweb.org/semangit/gitlab_artifact_filename",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_artifact_filename",
+      "domain": "Class195",
+      "range": "NodeId199",
+      "pos": [
+        6508.8,
+        -1779.03
+      ]
+    },
+    {
+      "id": "datatypeProperty223",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_tag",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_tag",
+      "domain": "87",
+      "range": "NodeId200",
+      "pos": [
+        6007.84,
+        -1228.89
+      ]
+    },
+    {
+      "id": "datatypeProperty224",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_web_url",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_web_url",
+      "domain": "87",
+      "range": "NodeId201",
+      "pos": [
+        5927.68,
+        -1259.35
+      ]
+    },
+    {
+      "id": "datatypeProperty225",
+      "iri": "http://visualdataweb.org/semangit/gitlab_pipeline_id",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_pipeline_id",
+      "domain": "Class194",
+      "range": "NodeId202",
+      "pos": [
+        5666.03,
+        -1918.69
+      ]
+    },
+    {
+      "id": "datatypeProperty226",
+      "iri": "http://visualdataweb.org/semangit/gitlab_pipeline_ref",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_pipeline_ref",
+      "domain": "Class194",
+      "range": "NodeId203",
+      "pos": [
+        5657.07,
+        -1818.67
+      ]
+    },
+    {
+      "id": "datatypeProperty227",
+      "iri": "http://visualdataweb.org/semangit/gitlab_pipeline_sha",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_pipeline_sha",
+      "domain": "Class194",
+      "range": "NodeId204",
+      "pos": [
+        5633.28,
+        -1776.63
+      ]
+    },
+    {
+      "id": "datatypeProperty228",
+      "iri": "http://visualdataweb.org/semangit/gitlab_pipeline_status",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_pipeline_status",
+      "domain": "Class194",
+      "range": "NodeId205",
+      "pos": [
+        5632.38,
+        -1733.95
+      ]
+    },
+    {
+      "id": "objectProperty229",
+      "iri": "http://visualdataweb.org/semangit/gitlab_job_author",
+      "baseIri": "http://visualdataweb.org/semangit/",
+      "label": "gitlab_job_author",
+      "attributes": [
+        "object"
+      ],
+      "domain": "87",
+      "range": "48",
+      "pos": [
+        5643.13,
+        -2243.78
+      ]
+    }
+  ]
+}
