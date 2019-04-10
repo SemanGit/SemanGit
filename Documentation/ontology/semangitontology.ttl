@@ -11,6 +11,8 @@
 @prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
 @base 			<http://visualdataweb.org/semangit/> .
 
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+
 <http://visualdataweb.org/semangit/> rdf:type owl:Ontology ;
                                      dc:title "SemanGit"@en; 
                                      dc:description "An onthology for git"@en; 
@@ -75,12 +77,12 @@
                            rdfs:domain :github_issue_event;
                            rdfs:range xsd:string. 
 #  --------------------------- Property 8------------------------- 
-:github_user_city rdf:type owl:DatatypeProperty; 
+:github_user_city rdf:type owl:ObjectProperty; 
                   rdfs:label "github_user_city"@IRI-based; 
                   rdfs:label "github_user_city"@iri-based; 
                   rdfs:label "github_user_city"@en; 
                   rdfs:domain :github_user;
-                  rdfs:range xsd:string. 
+                  rdfs:range dbo:City. 
 #  --------------------------- Property 9------------------------- 
 :github_issue_event_for rdf:type owl:ObjectProperty; 
                         rdfs:label "github_issue_event_for"@IRI-based; 
@@ -560,12 +562,12 @@
                            rdfs:domain :programming_language;
                            rdfs:range xsd:string. 
 #  --------------------------- Property 79------------------------- 
-:github_user_state rdf:type owl:DatatypeProperty; 
+:github_user_state rdf:type owl:ObjectProperty; 
                    rdfs:label "github_user_state"@IRI-based; 
                    rdfs:label "github_user_state"@iri-based; 
                    rdfs:label "github_user_state"@en; 
                    rdfs:domain :github_user;
-                   rdfs:range xsd:string. 
+                   rdfs:range dbo:State. 
 ###  Class Definitions (Number of Classes) 22 ###
 #  --------------------------- Class  0------------------------- 
 :github_organization_join_event rdf:type owl:Class; 
