@@ -108,7 +108,7 @@
                 rdfs:label "repository_url"@iri-based; 
                 rdfs:label "repository_url"@en; 
                 rdfs:domain :repository;
-                rdfs:range xsd:string. 
+                rdfs:range xsd:anyURI. 
 #  --------------------------- Property 13------------------------- 
 :github_user_fake rdf:type owl:DatatypeProperty; 
                   rdfs:label "github_user_fake"@IRI-based; 
