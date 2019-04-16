@@ -98,7 +98,7 @@
                 rdfs:label "repository_url"@iri-based; 
                 rdfs:label "repository_url"@en; 
                 rdfs:domain :repository;
-                rdfs:range xsd:string . 
+                rdfs:range xsd:anyURI . 
 #  --------------------------- Property 12------------------------- 
 :gitlab_time_stats_human_time_estimate rdf:type owl:DatatypeProperty ;
                                        rdfs:label "gitlab_time_stats_human_time_estimate"@IRI-based; 
@@ -203,7 +203,7 @@
                      rdfs:label "gitlab_user_web_url"@IRI-based; 
                      rdfs:label "gitlab_user_web_url"@en; 
                      rdfs:domain :gitlab_user;
-                     rdfs:range xsd:string . 
+                     rdfs:range xsd:anyURI . 
 #  --------------------------- Property 28------------------------- 
 :github_user_or_project rdf:type owl:DatatypeProperty ;
                         rdfs:label "github_user_or_project"@IRI-based; 
@@ -305,7 +305,7 @@
                       rdfs:label "gitlab_issue_web_url"@iri-based; 
                       rdfs:label "gitlab_issue_web_url"@en; 
                       rdfs:domain :gitlab_issue;
-                      rdfs:range xsd:string . 
+                      rdfs:range xsd:anyURI . 
 #  --------------------------- Property 43------------------------- 
 :gitlab_issue_state rdf:type owl:DatatypeProperty ;
                     rdfs:label "gitlab_issue_state"@IRI-based; 
@@ -331,7 +331,7 @@
                            rdfs:label "gitlab_repository_web_url"@IRI-based; 
                            rdfs:label "gitlab_repository_web_url"@en; 
                            rdfs:domain :gitlab_repository;
-                           rdfs:range xsd:string . 
+                           rdfs:range xsd:anyURI . 
 #  --------------------------- Property 47------------------------- 
 :gitlab_project_join_expires_at rdf:type owl:DatatypeProperty ;
                                 rdfs:label "gitlab_project_join_expires_at"@IRI-based; 
@@ -363,7 +363,7 @@
                             rdfs:label "gitlab_repository_http_url"@IRI-based; 
                             rdfs:label "gitlab_repository_http_url"@en; 
                             rdfs:domain :gitlab_repository;
-                            rdfs:range xsd:string . 
+                            rdfs:range xsd:anyURI . 
 #  --------------------------- Property 52------------------------- 
 :gitlab_merge_request_id rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_merge_request_id"@IRI-based; 
@@ -522,7 +522,7 @@
                     rdfs:label "gitlab_job_web_url"@IRI-based; 
                     rdfs:label "gitlab_job_web_url"@en; 
                     rdfs:domain :gitlab_job;
-                    rdfs:range xsd:string . 
+                    rdfs:range xsd:anyURI . 
 #  --------------------------- Property 76------------------------- 
 :commit_author rdf:type owl:ObjectProperty ;
                rdfs:label "commit_author"@IRI-based; 
@@ -602,7 +602,7 @@
                          rdfs:label "gitlab_group_avatar_url"@IRI-based; 
                          rdfs:label "gitlab_group_avatar_url"@en; 
                          rdfs:domain :gitlab_group;
-                         rdfs:range xsd:string . 
+                         rdfs:range xsd:anyURI . 
 #  --------------------------- Property 88------------------------- 
 :repository_created_at rdf:type owl:DatatypeProperty ;
                        rdfs:label "repository_created_at"@IRI-based; 
@@ -1212,7 +1212,7 @@
                                  rdfs:label "gitlab_environment_external_url"@iri-based; 
                                  rdfs:label "gitlab_environment_external_url"@en; 
                                  rdfs:domain :gitlab_environment;
-                                 rdfs:range xsd:string . 
+                                 rdfs:range xsd:anyURI . 
 #  --------------------------- Property 180------------------------- 
 :gitlab_environment_slug rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_environment_slug"@IRI-based; 
@@ -1251,7 +1251,7 @@
                         rdfs:label "gitlab_user_avatar_url"@IRI-based; 
                         rdfs:label "gitlab_user_avatar_url"@en; 
                         rdfs:domain :gitlab_user;
-                        rdfs:range xsd:string . 
+                        rdfs:range xsd:anyURI . 
 #  --------------------------- Property 186------------------------- 
 :gitlab_milestone_created_at rdf:type owl:DatatypeProperty ;
                              rdfs:label "gitlab_milestone_created_at"@IRI-based; 
@@ -1283,7 +1283,7 @@
                               rdfs:label "gitlab_repository_readme_url"@IRI-based; 
                               rdfs:label "gitlab_repository_readme_url"@en; 
                               rdfs:domain :gitlab_repository;
-                              rdfs:range xsd:string . 
+                              rdfs:range xsd:anyURI . 
 #  --------------------------- Property 191------------------------- 
 :gitlab_access_request_requested_at rdf:type owl:DatatypeProperty ;
                                     rdfs:label "gitlab_access_request_requested_at"@IRI-based; 
@@ -1366,7 +1366,7 @@
                       rdfs:label "gitlab_group_web_url"@IRI-based; 
                       rdfs:label "gitlab_group_web_url"@en; 
                       rdfs:domain :gitlab_group;
-                      rdfs:range xsd:string . 
+                      rdfs:range xsd:anyURI . 
 #  --------------------------- Property 204------------------------- 
 :gitlab_deployable_id rdf:type owl:DatatypeProperty ;
                       rdfs:label "gitlab_deployable_id"@IRI-based; 
@@ -1393,7 +1393,7 @@
                               rdfs:label "gitlab_repository_avatar_url"@IRI-based; 
                               rdfs:label "gitlab_repository_avatar_url"@en; 
                               rdfs:domain :gitlab_repository;
-                              rdfs:range xsd:string . 
+                              rdfs:range xsd:anyURI . 
 #  --------------------------- Property 208------------------------- 
 :gitlab_pipeline_sha rdf:type owl:DatatypeProperty ;
                      rdfs:label "gitlab_pipeline_sha"@IRI-based; 
@@ -1538,7 +1538,7 @@
                               rdfs:label "gitlab_merge_request_web_url"@IRI-based; 
                               rdfs:label "gitlab_merge_request_web_url"@en; 
                               rdfs:domain :gitlab_merge_request;
-                              rdfs:range xsd:string . 
+                              rdfs:range xsd:anyURI . 
 #  --------------------------- Property 230------------------------- 
 :gitlab_environment_id rdf:type owl:DatatypeProperty ;
                        rdfs:label "gitlab_environment_id"@IRI-based; 
@@ -1718,7 +1718,7 @@
                            rdfs:label "gitlab_repository_ssh_url"@IRI-based; 
                            rdfs:label "gitlab_repository_ssh_url"@en; 
                            rdfs:domain :gitlab_repository;
-                           rdfs:range xsd:string . 
+                           rdfs:range xsd:anyURI . 
 #  --------------------------- Property 258------------------------- 
 :commit_message rdf:type owl:DatatypeProperty ;
                 rdfs:label "commit_message"@IRI-based; 
