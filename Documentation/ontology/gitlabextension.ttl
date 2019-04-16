@@ -12,6 +12,8 @@
 @prefix : 		<http://visualdataweb.org/semangit/> .
 @base 			<http://visualdataweb.org/semangit/> .
 
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+
 <http://visualdataweb.org/semangit/> rdf:type owl:Ontology ;
                                      dc:title "SemanGit"@en; 
                                      dc:description "An onthology for git"@en; 
@@ -499,12 +501,12 @@
                                                rdfs:domain :gitlab_merge_request;
                                                rdfs:range xsd:boolean . 
 #  --------------------------- Property 72------------------------- 
-:github_user_city rdf:type owl:DatatypeProperty ;
+:github_user_city rdf:type owl:ObjectProperty ;
                   rdfs:label "github_user_city"@IRI-based; 
                   rdfs:label "github_user_city"@iri-based; 
                   rdfs:label "github_user_city"@en; 
                   rdfs:domain :github_user;
-                  rdfs:range xsd:string . 
+                  rdfs:range dbo:City . 
 #  --------------------------- Property 73------------------------- 
 :gitlab_label_text_color rdf:type owl:DatatypeProperty ;
                          rdfs:label "gitlab_label_text_color"@IRI-based; 
@@ -1520,12 +1522,12 @@
                                      rdfs:domain :gitlab_merge_request;
                                      rdfs:range :gitlab_repository . 
 #  --------------------------- Property 227------------------------- 
-:github_user_state rdf:type owl:DatatypeProperty ;
+:github_user_state rdf:type owl:ObjectProperty ;
                    rdfs:label "github_user_state"@IRI-based; 
                    rdfs:label "github_user_state"@iri-based; 
                    rdfs:label "github_user_state"@en; 
                    rdfs:domain :github_user;
-                   rdfs:range xsd:string . 
+                   rdfs:range dbo:State . 
 #  --------------------------- Property 228------------------------- 
 :github_pull_request_merged rdf:type owl:DatatypeProperty ;
                             rdfs:label "github_pull_request_merged"@IRI-based; 
@@ -1793,11 +1795,11 @@
                                    rdfs:domain :gitlab_merge_request_approval;
                                    rdfs:range xsd:integer . 
 #  --------------------------- Property 269------------------------- 
-:state rdf:type owl:DatatypeProperty ;
+:gitlab_user_state rdf:type owl:ObjectProperty ;
        rdfs:label "state"@IRI-based; 
        rdfs:label "state"@en; 
        rdfs:domain :gitlab_user;
-       rdfs:range xsd:string . 
+       rdfs:range dbo:State . 
 #  --------------------------- Property 270------------------------- 
 :gitlab_user_joins_project rdf:type owl:ObjectProperty ;
                            rdfs:label "gitlab_user_joins_project"@IRI-based; 
