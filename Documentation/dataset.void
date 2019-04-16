@@ -1,0 +1,35 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .
+@prefix meta: <#>
+<> a void:DatasetDescription;
+dcterms:title "A VoID description of the SemanGit dataset";
+dcterms:creator meta:Dennis;
+dcterms:creator meta:Matthias;
+dcterms:creator meta:Damien;
+foaf:primaryTopic meta:SemanGit .
+meta:SemanGit a void:Dataset;
+foaf:homepage <http://semangit.de/>;
+foaf:page <http://semangit.de/#downloads>;
+dcterms:title "SemanGit";
+dcterms:description "RDF data extracted from GitHub. More git repository providers to be added.";
+dcterms:contributor meta:Dennis;
+dcterms:contributor meta:Matthias;
+dcterms:contributor meta:Damien;
+dcterms:modified "2019/04/16"^^xsd:date;
+dcterms:subject <http://dbpedia.org/resource/Computer_Science>;
+void:feature <http://www.w3.org/ns/formats/Turtle>;
+void:uriSpace "http://semangit.de/" .
+meta:Dennis a foaf:Person;
+rdfs:label "Dennis Oliver Kubitza";
+foaf:mbox <mailto:dennis.kubitza@iais.fraunhofer.de> .
+meta:Matthias a foaf:Person;
+rdfs:label "Matthias Böckmann";
+foaf:mbox <mailto:matthias.boeckmann@iais.fraunhofer.de> .
+meta:Damien a foaf:Person;
+rdfs:label "Damien Graux";
+foaf:mbox <mailto:damien.graux@iais.fraunhofer.de> .
