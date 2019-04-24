@@ -288,12 +288,12 @@
                            rdfs:domain :github_issue;
                            rdfs:range :github_pull_request . 
 #  --------------------------- Property 40------------------------- 
-:github_project_id rdf:type owl:DatatypeProperty ;
-                   rdfs:label "github_project_id"@IRI-based; 
-                   rdfs:label "github_project_id"@iri-based; 
-                   rdfs:label "github_project_id"@en; 
-                   rdfs:domain :github_project;
-                   rdfs:range xsd:integer . 
+#:github_project_id rdf:type owl:DatatypeProperty ;
+#                   rdfs:label "github_project_id"@IRI-based; 
+#                   rdfs:label "github_project_id"@iri-based; 
+#                   rdfs:label "github_project_id"@en; 
+#                   rdfs:domain :github_project;
+#                   rdfs:range xsd:integer . 
 #  --------------------------- Property 41------------------------- 
 :gitlab_deployment_iid rdf:type owl:DatatypeProperty ;
                        rdfs:label "gitlab_deployment_iid"@IRI-based; 
@@ -786,12 +786,12 @@
                    rdfs:domain :commit;
                    rdfs:range :commit . 
 #  --------------------------- Property 116------------------------- 
-:github_userid rdf:type owl:DatatypeProperty ;
-               rdfs:label "github_userid"@IRI-based; 
-               rdfs:label "github_userid"@iri-based; 
-               rdfs:label "github_userid"@en; 
-               rdfs:domain :github_user;
-               rdfs:range xsd:integer . 
+#:github_userid rdf:type owl:DatatypeProperty ;
+#               rdfs:label "github_userid"@IRI-based; 
+#               rdfs:label "github_userid"@iri-based; 
+#               rdfs:label "github_userid"@en; 
+#               rdfs:domain :github_user;
+#               rdfs:range xsd:integer . 
 #  --------------------------- Property 117------------------------- 
 :gitlab_deployable_author rdf:type owl:ObjectProperty ;
                           rdfs:label "gitlab_deployable_author"@IRI-based; 
@@ -1384,12 +1384,12 @@
                                     rdfs:domain :gitlab_time_stats;
                                     rdfs:range xsd:integer . 
 #  --------------------------- Property 206------------------------- 
-:github_issue_id rdf:type owl:DatatypeProperty ;
-                 rdfs:label "github_issue_id"@IRI-based; 
-                 rdfs:label "github_issue_id"@iri-based; 
-                 rdfs:label "github_issue_id"@en; 
-                 rdfs:domain :github_issue;
-                 rdfs:range xsd:integer . 
+#:github_issue_id rdf:type owl:DatatypeProperty ;
+#                 rdfs:label "github_issue_id"@IRI-based; 
+#                 rdfs:label "github_issue_id"@iri-based; 
+#                 rdfs:label "github_issue_id"@en; 
+#                 rdfs:domain :github_issue;
+#                 rdfs:range xsd:integer . 
 #  --------------------------- Property 207------------------------- 
 :gitlab_repository_avatar_url rdf:type owl:DatatypeProperty ;
                               rdfs:label "gitlab_repository_avatar_url"@IRI-based; 
