@@ -382,10 +382,10 @@
                          rdfs:domain :github_issue;
                          rdfs:range xsd:dateTime. 
 #  --------------------------- Property 53------------------------- 
-:github_company rdf:type owl:DatatypeProperty; 
-                rdfs:label "github_company"@IRI-based; 
-                rdfs:label "github_company"@iri-based; 
-                rdfs:label "github_company"@en; 
+:github_user_company rdf:type owl:DatatypeProperty; 
+                rdfs:label "github_user_company"@IRI-based; 
+                rdfs:label "github_user_company"@iri-based; 
+                rdfs:label "github_user_company"@en; 
                 rdfs:domain :github_user;
                 rdfs:range xsd:string. 
 #  --------------------------- Property 54------------------------- 
@@ -521,10 +521,10 @@
                  rdfs:domain :github_follow_event;
                  rdfs:range :github_user. 
 #  --------------------------- Property 73------------------------- 
-:github_login rdf:type owl:DatatypeProperty; 
-              rdfs:label "github_login"@IRI-based; 
-              rdfs:label "github_login"@iri-based; 
-              rdfs:label "github_login"@en; 
+:github_user_login rdf:type owl:DatatypeProperty; 
+              rdfs:label "github_user_login"@IRI-based; 
+              rdfs:label "github_user_login"@iri-based; 
+              rdfs:label "github_user_login"@en; 
               rdfs:domain :github_user;
               rdfs:range xsd:string. 
 #  --------------------------- Property 74------------------------- 
